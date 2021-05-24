@@ -257,6 +257,7 @@
   <dataProcessors>DataProcessor.КонвертацияОбъектовИнформационныхБаз</dataProcessors>
   <dataProcessors>DataProcessor.ГорячиеКлавиши</dataProcessors>
   <dataProcessors>DataProcessor.NativeDraw_Ввод</dataProcessors>
+  <dataProcessors>DataProcessor.Обработкаулалить</dataProcessors>
   <informationRegisters>InformationRegister.СостояниеГена</informationRegisters>
   <informationRegisters>InformationRegister.ФайлыИКартинки</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
