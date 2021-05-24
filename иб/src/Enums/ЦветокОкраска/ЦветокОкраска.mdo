@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b54e2ba4-bcf9-45a6-bb82-edcdd6ab7d80">
+  <producedTypes>
+    <refType typeId="6e8b377e-693c-46ce-83d7-21e6b74e472a" valueTypeId="25552211-b4aa-4203-a21a-2b33e03cc5dd"/>
+    <listType typeId="d5e61ac2-0733-4aeb-8766-4feb1b255b51" valueTypeId="99417abe-d698-4884-9495-721db010bd56"/>
+    <managerType typeId="6ebc5ef7-ee71-44fd-be00-9bcebfa7520a" valueTypeId="9e895df4-d9ce-4480-bb33-378615950966"/>
+  </producedTypes>
+  <name>ЦветокОкраска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цветок окраска</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.ЦветокОкраска.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="35c941be-e811-448c-ba6f-f3f019a83775">
+    <name>оранжевый</name>
+    <synonym>
+      <key>ru</key>
+      <value>QL - 2 - оранжевый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37edf6de-da23-40cc-a274-b4bc29dfb915">
+    <name>желтый</name>
+    <synonym>
+      <key>ru</key>
+      <value>VG - 1 - желтый</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="efa206b9-3b24-44d6-9c9a-223475149e0a">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

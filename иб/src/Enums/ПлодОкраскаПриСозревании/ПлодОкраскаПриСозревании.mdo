@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a963237-51af-446d-82fe-9c21251ae578">
+  <producedTypes>
+    <refType typeId="5b480bda-14a4-4ef0-862d-69dc50208fe2" valueTypeId="b73c8676-4533-472a-83af-1020db17ee21"/>
+    <listType typeId="967e85f1-e64e-458c-b143-f1af8c10bce9" valueTypeId="12247821-1973-40ff-9187-91027215a6b3"/>
+    <managerType typeId="baf4a44a-f67d-4f9f-b7ba-b6c8e8ba65cd" valueTypeId="f2b9b6dd-15b3-442d-bc8f-b11fd5d1934b"/>
+  </producedTypes>
+  <name>ПлодОкраскаПриСозревании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плод окраска при созревании</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.ПлодОкраскаПриСозревании.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="228dc5c1-c2c8-4f75-8dc2-f9492b3c172f">
+    <name>кремовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 - кремовый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aeb6058b-6b26-41d6-b1d9-1739dcff7cc3">
+    <name>фиолетовоКоричневый</name>
+    <synonym>
+      <key>ru</key>
+      <value>10 - фиолетово-коричневый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26a88b06-5e2d-4323-bab6-e9268db9271a">
+    <name>желтый</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 - желтый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be459335-0334-48ef-ac1a-186c366eada3">
+    <name>оранжевый</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 - оранжевый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="169227f9-83f3-4515-8a86-1d8e81714321">
+    <name>розовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>4 - розовый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de40e134-a28c-4e66-bdc2-9c500eb6701b">
+    <name>красный</name>
+    <synonym>
+      <key>ru</key>
+      <value>5 - красный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5735cf7-396b-4d5d-bb50-7a6a389e9b27">
+    <name>коричневый</name>
+    <synonym>
+      <key>ru</key>
+      <value>6 - коричневый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f634866-526c-460a-b0e7-7790ecb80963">
+    <name>зеленый</name>
+    <synonym>
+      <key>ru</key>
+      <value>7 - зеленый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95649ce2-b859-46e8-aeb2-9107b3110084">
+    <name>оранжевоКрасный</name>
+    <synonym>
+      <key>ru</key>
+      <value>8 - оранжево-красный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="775a4e27-f7d0-4fd7-bf7d-36af7480acbe">
+    <name>малиновый</name>
+    <synonym>
+      <key>ru</key>
+      <value>9 - малиновый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28c14401-7378-45d1-b2b5-57c6dc1dde0c">
+    <name>желто_коричневый</name>
+    <synonym>
+      <key>ru</key>
+      <value>желто-коричневый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f59454bb-4115-40b4-87e4-59e441404885">
+    <name>желто_красный</name>
+    <synonym>
+      <key>ru</key>
+      <value>желто-красный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1108367-0cdf-4e4f-9dd0-12fce820d9c0">
+    <name>красно_черный</name>
+    <synonym>
+      <key>ru</key>
+      <value>красно-черный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1979ac1e-0a98-46ac-83d4-6b7f9ae0698f">
+    <name>красныйПолосатый</name>
+    <synonym>
+      <key>ru</key>
+      <value>красный полосатый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20ca41f2-eb22-41cd-aab1-e91de474c4cd">
+    <name>черный</name>
+    <synonym>
+      <key>ru</key>
+      <value>черный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84a179aa-e723-45c9-8eb3-d2ae07d803a8">
+    <name>неизвестно</name>
+    <synonym>
+      <key>ru</key>
+      <value>?</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="6aeb94e6-a3b6-4562-aba9-ee7d8468d32a">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

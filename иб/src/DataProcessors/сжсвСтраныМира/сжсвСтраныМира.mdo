@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a9f165b-323c-4dd6-83ac-73b8e9624593">
+  <producedTypes>
+    <objectType typeId="4b2ae840-434c-4e81-9923-24692d7b00c8" valueTypeId="11a9a5cb-8c93-40e8-b082-504bdf7b3e9b"/>
+    <managerType typeId="518c86cc-399e-4d42-ac98-ed605107d199" valueTypeId="4ffd9552-5147-4f1b-8d45-f918849ce0c2"/>
+  </producedTypes>
+  <name>сжсвСтраныМира</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страны мира</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Country</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="df83ee48-f212-4b39-bb11-0062a9402651">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Full name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полное наименование страны мира</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Полное наименование страны мира</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2b15f6f3-0190-4fb7-835d-bd82d9aa2db8">
+    <name>КодАльфа2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код альфа-2</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code a-1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Двузначный буквенный код альфа-2 страны по ОКСМ</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Двузначный буквенный код альфа-2 страны по ОКСМ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1f1961d9-ff63-4486-b0b7-5845bb7867bf">
+    <name>КодАльфа3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код альфа-3</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code a-3</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Трехзначный буквенный код альфа-3 страны по ОКСМ</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Трехзначный буквенный код альфа-3 страны по ОКСМ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="78965361-6ae5-4dba-985c-8c16eb6caccb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of elemet</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="50421c4e-93c8-4f69-937b-67ce33239d45">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8dd4663e-9289-4589-9a56-70f8287e8282">
+    <name>Классификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Classifier</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="763d9e28-fd25-41bb-9c0f-3d946587330b">
+    <name>Классификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Classifier</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

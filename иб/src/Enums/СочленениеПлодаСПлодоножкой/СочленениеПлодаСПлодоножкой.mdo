@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbaa7c14-a783-4f43-88a7-bdf1a0785e1d">
+  <producedTypes>
+    <refType typeId="5ef608ed-dac8-401e-85b2-dd639d8b3e36" valueTypeId="32c861f5-567d-43a0-9fa8-0a793ba97ea4"/>
+    <listType typeId="e17dfb01-32fc-4e1e-a319-0c809a603253" valueTypeId="3d406db2-bc5b-45fd-a4d9-49c31dce3a67"/>
+    <managerType typeId="c6fd1cb8-dc52-4f3f-8be2-5835ef182879" valueTypeId="3db195c5-eff5-428d-91bf-37503f471c9e"/>
+  </producedTypes>
+  <name>СочленениеПлодаСПлодоножкой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сочленение плода с плодоножкой</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b2e6a3a3-e7b5-489b-b808-8463772d0456">
+    <name>коленчатое</name>
+    <synonym>
+      <key>ru</key>
+      <value> J+</value>
+    </synonym>
+    <comment>коленчатое J+</comment>
+  </enumValues>
+  <enumValues uuid="f6935909-22a2-4992-afab-e46172d5b324">
+    <name>коленчатое_бесколенчатое</name>
+    <synonym>
+      <key>ru</key>
+      <value>J+/-</value>
+    </synonym>
+    <comment>коленчатое_бесколенчатое</comment>
+  </enumValues>
+  <enumValues uuid="cfb789b3-9715-4951-8e3c-b6ac13074c6d">
+    <name>бесколенчатое</name>
+    <synonym>
+      <key>ru</key>
+      <value> J-</value>
+    </synonym>
+    <comment>коленчатое J-</comment>
+  </enumValues>
+</mdclass:Enum>

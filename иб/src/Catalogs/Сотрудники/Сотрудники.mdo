@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af6accb9-cb49-4f83-9d87-c2a967551e14">
+  <producedTypes>
+    <objectType typeId="5bf843b3-c7af-4324-80fb-a2d1318f7d8e" valueTypeId="6be4765f-7991-42d6-980c-ead9eb6180ab"/>
+    <refType typeId="3a3b1a12-3625-411c-8609-c69d2c338883" valueTypeId="f9ba8b63-fe5f-4ae6-bda8-c8a893ac37fe"/>
+    <selectionType typeId="59db9001-93df-4cab-941c-3c6d58d890df" valueTypeId="b90f640d-2145-427b-8476-e1ec86321398"/>
+    <listType typeId="448aac6b-ed47-46de-8acc-07efc866b37f" valueTypeId="f13f4ff6-a3d3-4111-997b-a7db6828f624"/>
+    <managerType typeId="2be64183-81d3-4dc9-8c47-fa8aec093755" valueTypeId="a28abac2-1fe9-4c92-91c3-f57456c74258"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Workers</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Предопределенный</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что элемент справочника является предопределенным</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Признак того, что элемент справочника является предопределенным</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ссылка</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на элемент справочника</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Ссылка на элемент справочника</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Пометка на удаление</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Пометка на удаление</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это группа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>This is group</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак &quot;Это группа&quot;</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Признак &quot;Это группа&quot;</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа сотрудника</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Группа сотрудника</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа, в которую входит сотрудник</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Группа, в которую входит сотрудник</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Сотрудники.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>ФИО сотрудника</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>ФИО сотрудника</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Табельный номер сотрудника</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Табельный номер сотрудника</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>         </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сотрудник</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Co-worker</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Хранит список сотрудников</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Хранит список сотрудников</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>3</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

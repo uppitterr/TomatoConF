@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41df5e1e-92b6-4b2b-894c-a37416426c7d">
+  <producedTypes>
+    <refType typeId="814b1e72-3957-49df-9205-3fd239d54158" valueTypeId="d64dfaf4-dec3-45c2-842e-77b106329593"/>
+    <listType typeId="83cf8bc1-a11e-44e0-8762-1e0515b5e558" valueTypeId="70943a9f-da04-48f7-be0e-970ff0e6eaf3"/>
+    <managerType typeId="058106e2-2dbe-4983-8126-1929edc1d215" valueTypeId="42c20cdd-3ccc-4407-a2bb-e615445d17bb"/>
+  </producedTypes>
+  <name>сжсвСтавкиНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки НДС</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>VAT rates</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

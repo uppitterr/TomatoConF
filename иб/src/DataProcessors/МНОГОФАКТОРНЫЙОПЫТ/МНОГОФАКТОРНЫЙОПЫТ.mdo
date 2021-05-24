@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5738ee3f-b231-4568-a0cc-f0ee1c404d1c">
+  <producedTypes>
+    <objectType typeId="f1da6ac4-f3bb-4370-b513-d815a560ed17" valueTypeId="2655211f-de88-46a2-b5e3-58d6bbe79404"/>
+    <managerType typeId="ca7fec6b-6ecc-4d42-a66f-2d24b5c4b85d" valueTypeId="ec6e9bba-f2f1-4f21-b2a1-085427415679"/>
+  </producedTypes>
+  <name>МНОГОФАКТОРНЫЙОПЫТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>МНОГОФАКТОРНЫЙ ОПЫТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

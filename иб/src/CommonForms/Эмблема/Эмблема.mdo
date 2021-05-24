@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45aed9be-6101-48f0-95aa-4ebae2a8a128">
+  <name>Эмблема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эмблема</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

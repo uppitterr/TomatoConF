@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71f8f76d-0669-49e5-9627-26613f062d69">
+  <producedTypes>
+    <selectionType typeId="4e8ebf8c-5bc6-42bb-9192-b9001fa0ace5" valueTypeId="4c706f09-2e5c-4b04-a22a-95181fc91e05"/>
+    <listType typeId="436d164c-2c63-41cb-8200-e59b2ad48c41" valueTypeId="5422c162-f7c5-44db-b9ed-d8af18264ef9"/>
+    <managerType typeId="6aa763ca-a505-4223-a304-fc777945fbff" valueTypeId="5d14e511-c916-4398-8535-6b4674931216"/>
+    <recordSetType typeId="e5dc8390-7cef-4a79-a360-72906eb5b4ed" valueTypeId="160a9a07-685c-42b6-9941-008b016d5960"/>
+    <recordKeyType typeId="add202f9-c140-48f4-a501-e3c3b9fc5da2" valueTypeId="67d3becb-2cef-4927-974e-e0faedbe58e2"/>
+    <recordType typeId="37e61f6d-825a-42cc-b554-ef92d66c02e2" valueTypeId="65513f9b-bdda-4903-9d3c-2439f8bda067"/>
+    <recordManagerType typeId="2f2b8d02-d727-40a2-a2ff-07bd2ab6ecb6" valueTypeId="6c4c9936-d07e-4bad-8c47-a8add49013cc"/>
+  </producedTypes>
+  <name>ИсторияОтцовскихЛиний</name>
+  <synonym>
+    <key>ru</key>
+    <value>История отцовских линий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Хранит историю материнских линий</value>
+  </explanation>
+  <resources uuid="b6e4cf57-6faf-4ca8-94ea-7fae708f2446">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bff7cca2-f610-4cab-b3bb-98b4690491b1">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата события по материнской линии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="24899675-fa2b-40f3-bdfd-3f0488cdd908">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <type>
+      <types>EnumRef.События</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="585905de-4759-4c1e-af36-cbc96668e044">
+    <name>ОтцовскаяЛиния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отцовская линия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОтцовскаяЛиния</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

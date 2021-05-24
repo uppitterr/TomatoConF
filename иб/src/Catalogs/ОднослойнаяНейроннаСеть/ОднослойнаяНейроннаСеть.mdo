@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cd56100-fd5f-4af7-893f-8ff612b3e94d">
+  <producedTypes>
+    <objectType typeId="2cf3e9ef-5e6c-44bf-bca3-30e030443946" valueTypeId="4fe2a07a-3d5f-4ae9-ad15-20f6fe63784c"/>
+    <refType typeId="445d7af2-801d-4443-b352-e61aecf71538" valueTypeId="44b2f9db-66da-4723-98d3-3ac1147884d2"/>
+    <selectionType typeId="857f380c-ac18-47c6-aae4-821a77ae504d" valueTypeId="408dd91a-3961-4e15-9bac-1a331660702e"/>
+    <listType typeId="b37ef014-c045-4618-9acf-59cdacdee884" valueTypeId="b1f33fe8-f886-4679-bc7c-1de6be4febe3"/>
+    <managerType typeId="a73ecb9f-0e92-414c-8f07-44f5b859a8c0" valueTypeId="2d03b888-c7f5-4e46-aef1-026ba470339c"/>
+  </producedTypes>
+  <name>ОднослойнаяНейроннаСеть</name>
+  <synonym>
+    <key>ru</key>
+    <value>Однослойная нейронна сеть</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОднослойнаяНейроннаСеть.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОднослойнаяНейроннаСеть.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>60</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="63abadbf-22e0-48fa-bfb4-f2b16d2f62e2">
+    <producedTypes>
+      <objectType typeId="4d72c923-3ca0-4f46-927c-5ebdcd75f2ec" valueTypeId="246830f9-3487-486f-86bc-e5c917e663ea"/>
+      <rowType typeId="b4f73f2c-7835-4b8c-8122-065cbda117e6" valueTypeId="e19a8cda-25e7-4018-90d9-ca43da0ac818"/>
+    </producedTypes>
+    <name>Нейроны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нейроны</value>
+    </synonym>
+    <attributes uuid="4040c1b4-6904-496e-b988-05a358f96cdc">
+      <name>Нейрон</name>
+      <synonym>
+        <key>ru</key>
+        <value>Нейрон</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Нейрон</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

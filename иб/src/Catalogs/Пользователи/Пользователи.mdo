@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc3e59e3-e0d3-4f8f-9447-092a96fc464e">
+  <producedTypes>
+    <objectType typeId="683b58a2-cb86-44a7-b383-106b4b04a47f" valueTypeId="761d9ebb-090d-4086-9f6f-cc830f1bdce5"/>
+    <refType typeId="23dba34e-febb-417e-8726-5e2c5405a804" valueTypeId="085876fa-bfd5-4805-a783-9d8a934a3d6c"/>
+    <selectionType typeId="4e71fd2b-fe3c-4d88-8496-ec4656d7a5bc" valueTypeId="30541dfe-2ab5-4fa0-ac44-f2ffb4482db0"/>
+    <listType typeId="79b094c4-2cd1-4774-bca7-e23215b5eff1" valueTypeId="1f83ec64-0dae-4295-b1a2-373c4d016dba"/>
+    <managerType typeId="86075807-0a6a-4ebd-bc39-e7714ffcc820" valueTypeId="8b91f7eb-a364-4636-8744-e97f8d464e70"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Users</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Предопределенный</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что элемент справочника является предопределенным</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Признак того, что элемент справочника является предопределенным</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ссылка</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на элемент справочника</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Ссылка на элемент справочника</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Пометка на удаление</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Пометка на удаление</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>ФИО пользователя программы</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>ФИО пользователя программы</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Код элемента справочника</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Код элемента справочника</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>         </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Пользователь</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>User</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Хранит список пользователей программы</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Хранит список пользователей программы</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="da4c9830-bcb5-4542-906c-c660433b1766">
+      <name>Неопределено</name>
+      <description>Неопределено</description>
+      <code xsi:type="core:StringValue">
+        <value>000000000</value>
+      </code>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0a8905f5-40aa-4067-88be-bfab4bac4754">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор пользователя</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Идентификатор пользователя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

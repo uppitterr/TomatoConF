@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba7d6b66-ca23-42e0-a503-eece57ba9e94">
+  <producedTypes>
+    <objectType typeId="e5440c85-9a49-4380-a3c1-03664293f535" valueTypeId="7a237e81-b737-4d71-b4ef-7dd09d2772d9"/>
+    <managerType typeId="5a0bab40-34e6-4ce4-85ae-00eb41ef443f" valueTypeId="64c528f6-b965-40b1-b47e-bf7eeedc80ba"/>
+  </producedTypes>
+  <name>ЗагрузкаДанныхНазвание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных название</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаДанныхНазвание.Form.Форма</defaultForm>
+  <attributes uuid="681f014b-b92a-4556-8b0f-6941fbc515f3">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a4731c03-262f-489f-aefc-72f10fa8ec03">
+    <name>ФорматФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="d81629cb-bf73-44f9-9fdf-c09de088541c">
+    <producedTypes>
+      <objectType typeId="423a47bc-2edc-4a70-a9af-ac009dfed6b2" valueTypeId="4cff8706-ebaf-48e2-b431-266ef74d4039"/>
+      <rowType typeId="228dab09-81cc-4be7-b5d1-e01f7aa700f5" valueTypeId="e5e9b27c-372c-4901-b2e9-4c7dfbf7859a"/>
+    </producedTypes>
+    <name>ДанныеФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные файла</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="98b43925-f805-4f2d-a5d0-cc1f8ac2a7b9">
+      <name>названиеТомата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Название томата</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="93cc7581-0663-4a04-8f2e-e07d1e24b011">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

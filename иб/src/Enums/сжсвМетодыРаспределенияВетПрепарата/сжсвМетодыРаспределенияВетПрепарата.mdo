@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="752eb6e5-7ca9-4643-8ee6-dea492d33df0">
+  <producedTypes>
+    <refType typeId="0a51698f-a0f2-4773-a27c-c5de7d9ccb48" valueTypeId="fc60e10a-bebe-4c86-baf4-c9804d69cf48"/>
+    <listType typeId="ae30b593-8d4f-4436-9d4e-aaf1a1ee22bb" valueTypeId="6918b91b-1792-4df0-b528-dd73448d7421"/>
+    <managerType typeId="dce86ef0-4c56-4925-8eaf-245966eb0216" valueTypeId="c5deb990-c064-4994-ba10-c592345b0e78"/>
+  </producedTypes>
+  <name>сжсвМетодыРаспределенияВетПрепарата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы распределения</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Distribution methods</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Методы распределения кормов</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Distribution methods of feed</value>
+  </explanation>
+</mdclass:Enum>

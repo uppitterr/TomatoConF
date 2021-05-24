@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5388fe9b-7698-4d3b-baf2-9215f464aeff">
+  <producedTypes>
+    <objectType typeId="998cb4bd-9e91-4d61-b592-a4d17f0a7153" valueTypeId="c2d021f0-b583-42c3-89c3-317ac11ca683"/>
+    <managerType typeId="750aa362-03a1-4cd5-aa8b-d188f5d77ab8" valueTypeId="c550fba0-e34a-4bc5-88a7-977a2e2b45ee"/>
+  </producedTypes>
+  <name>ПечатьЦенниковИЭтикетокПРОФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать ценников и этикеток ПРОФ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПечатьЦенниковИЭтикетокПРОФ.Form.Основная</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="a450be0c-44d3-4823-9b3e-a05a9cb822d3">
+    <name>АнализироватьСвойстваНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализировать свойства номенклатуры</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="393bc029-d96e-40e9-9791-eb3cb1765405">
+    <name>АнализироватьСвойстваХарактеристик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализировать свойства характеристик</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="398a34cb-4eeb-48dc-8699-746c39ce9337">
+    <name>ВариантРаботыШК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант работы с ШК</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="602d533b-d335-4652-a485-e699852acf65">
+    <name>ВключатьРодителяВТовар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать наименование родителя в товар</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f3df0089-9588-411e-9045-ef3bf3d6f7cf">
+    <name>ЗапрашиватьКоличествоПриПодборе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрашивать количество при подборе</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="86153e7a-989b-4502-aebf-8ee892cbac89">
+    <name>ИмяПринтера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя принтера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9a920d95-286a-4c61-97a8-63b452ad16ad">
+    <name>ИспользоватьСерииНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать серии номенклатуры</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5c2540e3-c921-4e6e-9fbe-38a787a454c3">
+    <name>ИспользоватьХарактеристикиТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать характеристики товаров</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="853a38cd-fca1-4059-80bb-9036fd5868ff">
+    <name>НазначатьМакетыЦенниковНоменклатуре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначать макеты ценников номенклатуре</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c2af0b85-eed3-4167-8bd5-b873a76c2bcb">
+    <name>НеПечататьБезЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не печатать без цен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="327dbf20-ca7a-4d56-b88c-6058e2088814">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="088e60cb-b356-4cc8-ba7f-9ec9364e7d53">
+    <name>ПрямаяПечать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прямая печать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cbf73eba-8e56-4d5d-85ef-d5ea760607ad">
+    <name>ПутьКЦенникам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к ценникам</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4822a23d-3617-4c6b-98f2-fef9db794615">
+    <name>РазворачиватьПоХарактеристикам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разворачивать по характеристикам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3716e8b1-356f-4a34-a8f3-f9e125e13a6c">
+    <name>Разделитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделитель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="456912c3-12c8-454d-b582-6c7beb9305e8">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="66b3d002-d663-4859-9916-d20fa5f852b3">
+    <name>РезультатШК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат ШК</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c773e336-2258-4800-be5d-9029f0aa461e">
+    <name>РеквизитКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c916a29d-01e0-4509-a94e-a7c9f9a92eab">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1b4cc67c-8078-4ad0-95ec-e5c1faae39b3">
+    <name>СписокТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список товаров</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5081d810-27f0-4655-a9cd-adb9ec055327">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e6e16a37-5875-4ffd-b04a-29b8f6f93123">
+    <name>ТипОкругления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип округления</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fae0215c-4b2b-4968-a827-3b9fc9b412f7">
+    <name>ТипЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип цен</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="df50c332-1f48-49b7-9186-bc7a3d68a770">
+    <name>ФорматЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат цены</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="23762319-e2fc-4502-b375-a9dca4866ea3">
+    <name>ФорматЦеныВалюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат цены валюта</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1d85b559-1bbb-4d11-92ec-40ba15a82716">
+    <name>ЦеныАТТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цены АТТ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a82e3970-8f83-4212-820b-ea8e1cf4d149">
+    <name>ВариантРасчетаСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант расчета скидки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="caafacf6-2c74-4206-8d3b-fb75250a4be5">
+    <name>ТипОкругленияСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип округления скидки</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1d4424d1-d9cf-4feb-8953-e710c9f18304">
+    <name>ЦенаСкидка1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена скидка1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9b8114b6-c7a3-4422-b469-cb67b714ec15">
+    <name>ЦенаСкидка2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена скидка2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e1e4e291-db3b-413d-a64d-e628005f3083">
+    <name>СкидкаСоЗнакомМинус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатать скидку со знаком минус</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ed6150d4-99fa-4921-95d0-8aca3153871e">
+    <name>ФормироватьШтучныйШК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать ШК на штучный товар</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f031478d-4745-4174-91a9-68325761461b">
+    <name>ФормироватьВесовойШК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать ШК на весовой товар</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b6237fb2-ae3a-4bc4-aaf0-695b2f17e174">
+    <name>РассчитыватьОстатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассчитывать остатки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b799dcd3-370a-4a8b-9aa4-161ce50442e3">
+    <name>СтруктураРасчетаОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура расчета остатков</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e597fb91-5212-4d5d-827e-4a44658b97be">
+    <name>ЗапрашиватьХарактеристикуПриПодборе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрашивать характеристику при подборе</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d71d6a1d-5c65-4aa7-8349-358ed164e658">
+    <name>ПечататьКоличествоНаОстатках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатать количество на остатках</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d2eece63-b963-4552-8bc6-f4744d8335d9">
+    <name>ВыборМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор макета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4abdad78-b258-4b52-95ac-452e1907d337">
+    <name>ВыборПериодаЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор периода цен</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cd69c613-9501-43b2-80ec-a99dd5ccefae">
+    <name>Основная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c5d15783-9933-4e68-b8b6-5fb0af37f0eb">
+    <name>Регистрация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e3d7cf3c-ccff-4623-a7e5-727daaea039a">
+    <name>Сайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сайт</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9146e1d5-f04b-497f-a044-02350020e75d">
+    <name>СписокГрСпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список групп номенклатуры</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f6795212-f322-4451-9275-102289341852">
+    <name>СписокШтрихкодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список штрихкодов номенклатуры</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6b0f7228-2761-496e-88c7-1715fca87e3a">
+    <name>Ценник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценник</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

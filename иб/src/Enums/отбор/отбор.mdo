@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91cdfc84-390b-435d-acdd-77d7d46b3e74">
+  <producedTypes>
+    <refType typeId="8e932a43-8b37-466e-8154-5069e0290820" valueTypeId="c7976b41-cb6d-486c-b1f0-e1044fe92564"/>
+    <listType typeId="03fdd319-681e-44ce-a43d-30f7679ef307" valueTypeId="0c080853-e9f6-43ca-95fb-e8ace9be3400"/>
+    <managerType typeId="f56978cb-a2af-47e2-a0bc-acb2e63f0218" valueTypeId="f6acdcc4-6693-4140-893a-d34623e01ee1"/>
+  </producedTypes>
+  <name>отбор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отбор</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0be4c84a-0c37-4ebf-ba1c-237dc9b5a083">
+    <name>общий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d7c8552-90bb-4845-8d1e-0a4693b1005f">
+    <name>F2</name>
+    <synonym>
+      <key>ru</key>
+      <value>F2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65ce4ea0-e135-48e9-b464-06861937ec0c">
+    <name>_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9006597b-3f82-4907-894e-4b72dd4946e0">
+    <name>_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b5a5dca-36ca-41eb-8f43-5901930f47f0">
+    <name>_3</name>
+    <synonym>
+      <key>ru</key>
+      <value>3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="352cefc1-62da-4c7c-b890-8ecf9272461f">
+    <name>_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9eddd7d0-1249-4b62-98f7-a315585d463d">
+    <name>_5</name>
+    <synonym>
+      <key>ru</key>
+      <value>5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="42ea641e-3ea2-4b67-8e1a-c4d2db3c2f9f">
+    <name>_6</name>
+    <synonym>
+      <key>ru</key>
+      <value>6</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c454ffb-a323-4f5d-821a-f75ac01e14da">
+    <name>_7</name>
+    <synonym>
+      <key>ru</key>
+      <value>7</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cac411f6-2ce9-4482-8e75-35d1c6657748">
+    <name>_8</name>
+    <synonym>
+      <key>ru</key>
+      <value>8</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9adae8fb-5e46-40ae-b62e-1b9753c64712">
+    <name>_9</name>
+    <synonym>
+      <key>ru</key>
+      <value>9</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f148a3a-f7e7-46e1-99d6-a9ee87dcacc3">
+    <name>_10</name>
+    <synonym>
+      <key>ru</key>
+      <value>10</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

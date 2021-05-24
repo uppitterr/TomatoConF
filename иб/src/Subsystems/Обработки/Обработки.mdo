@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a50944e0-00ba-4308-b609-6ecd6af5f7a4">
+  <name>Обработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбщаяКартинка20</picture>
+  </picture>
+  <content>CommonPicture.ОбщаяКартинка20</content>
+  <content>CommonForm.ФормаОтчета</content>
+  <content>cb9e5b38-8dfa-49cb-b9e9-5779088a9376</content>
+  <subsystems>Мои</subsystems>
+  <subsystems>Нужные</subsystems>
+  <subsystems>Пробные</subsystems>
+  <subsystems>МатематическаяОбработка</subsystems>
+  <subsystems>ТЕСТОВЫЕ</subsystems>
+</mdclass:Subsystem>

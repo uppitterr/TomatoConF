@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10944467-c269-40a8-9e63-043ca9b9123e">
+  <producedTypes>
+    <objectType typeId="ba3d92aa-8678-4fd1-b268-132eadaa7b0a" valueTypeId="78e2e525-d7fb-4ebe-a823-b95a0b31ec03"/>
+    <refType typeId="13aa2c05-fb3d-4877-92b7-c5250f760db7" valueTypeId="8f0edab0-2471-4549-b61e-f017bed9c277"/>
+    <selectionType typeId="acc8789d-6ddd-44c4-a102-72a9fa1660a4" valueTypeId="5a669454-f30f-48f7-be08-a561a5d61248"/>
+    <listType typeId="5e72ba55-84ed-444d-90e2-1e99a1d826e5" valueTypeId="97200647-4d93-4e2f-bd44-23e2c57bfe59"/>
+    <managerType typeId="bf5c1029-f56c-42a2-b54a-811d53745ba8" valueTypeId="150c7bbc-bbc0-4e52-a7f2-f67ad2fb51a6"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Measurement units</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Предопределенный</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что элемент справочника является предопределенным</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Признак того, что элемент справочника является предопределенным</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ссылка</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на элемент справочника</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Ссылка на элемент справочника</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Пометка на удаление</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Пометка на удаление</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Owner</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Позиция номенклатуры, которой принадлежит единица измерения</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Позиция номенклатуры, которой принадлежит единица измерения</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Название единицы измерения</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Name of measuring unit</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Код элемента справочника</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Код элемента справочника</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Единица измерения</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>unit of measure</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Хранит сведения о списке единиц измерения</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Хранит сведения о списке единиц измерения</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Препараты</owners>
+  <owners>Catalog.Удобрения</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЕдиницыИзмерения.Form.ФормаЭлементаУпр</defaultObjectForm>
+  <attributes uuid="be6e815f-35ba-49c3-a444-7f57e25783ce">
+    <name>ЕдиницаПоКлассификатору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица по классификатору</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Unit</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Единица измерения по классификатору ОКЕИ</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Единица измерения по классификатору ОКЕИ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="93b76bd0-129b-4231-9b2e-14edf44f914f">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>factor</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Коэффициент перевода относительно единицы использования (количество единиц использования  соответствующее одной текущей единице)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Коэффициент перевода относительно единицы использования (количество единиц использования  соответствующее одной текущей единице)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="047f4e2f-3032-4f73-9d15-0cabd88abb2f">
+    <name>ФормаЭлементаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of elemet</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

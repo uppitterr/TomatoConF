@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d36c4e4d-6223-4769-8f32-920cc19096b4">
+  <producedTypes>
+    <objectType typeId="525e002b-c294-46e9-adf8-fc5b206f41f5" valueTypeId="91b2ae15-ab11-4ca1-9d94-c6a83b8c05f3"/>
+    <managerType typeId="53435d24-67a3-4a12-90ab-76ae8ac635c4" valueTypeId="f1b94517-8273-4405-b2ce-01958da1a57b"/>
+  </producedTypes>
+  <name>ГорячиеКлавиши</name>
+  <synonym>
+    <key>ru</key>
+    <value>Горячие клавиши</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГорячиеКлавиши.Form.Форма</defaultForm>
+  <forms uuid="19d95d50-e5b9-4c30-b33b-0ff13d3f51da">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

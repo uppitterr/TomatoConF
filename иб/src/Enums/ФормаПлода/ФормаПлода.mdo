@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e028cfb4-6f49-49f2-84f5-bd33ea85d9d6">
+  <producedTypes>
+    <refType typeId="7e0f9011-f481-4bb9-8bb8-6179d74035d6" valueTypeId="c1f98d2a-91bb-416b-ae89-74b7a3f69541"/>
+    <listType typeId="48525ff5-4c71-4cd5-8872-2d8563d37a43" valueTypeId="7ea53ce2-d09b-4e25-aa24-57ae197c5975"/>
+    <managerType typeId="87ccf578-2900-4fe1-839f-360d200371d7" valueTypeId="666b87f8-0bda-46d3-89c7-1571ebbc4f85"/>
+  </producedTypes>
+  <name>ФормаПлода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма плода</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Enum.ФормаПлода.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="43dca38e-7402-4631-a6aa-2882bcb5244a">
+    <name>неизвестно</name>
+    <synonym>
+      <key>ru</key>
+      <value>?</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96e2d8fb-e3d2-45a2-97b1-4e4f15816b81">
+    <name>овальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Овальный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1b8c8f3-f0c1-49d9-95c2-7422aead3b18">
+    <name>округлый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Округлый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="579ce24a-40cb-4d26-b62e-953c81d8459c">
+    <name>плоский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плоский</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cbc5c312-742f-4081-92fd-68dadd108a28">
+    <name>плоско_округлый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плоско-округлый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2612f35-112a-4d8f-94c7-3098d99f4e72">
+    <name>сливовидный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сливовидный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e83474d9-dc14-4a44-b6f0-b8a7e2d02750">
+    <name>чалмавидный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чалмавидный</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="79658f45-a172-4ab9-8dac-1c73563ef827">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

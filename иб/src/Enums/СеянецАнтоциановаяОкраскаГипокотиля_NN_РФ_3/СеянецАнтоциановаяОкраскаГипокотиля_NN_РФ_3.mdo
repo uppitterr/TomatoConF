@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1655a284-99ba-4375-8dc5-3ba090741045">
+  <producedTypes>
+    <refType typeId="7742acf2-ca35-40ce-873f-a5d7f9770f4c" valueTypeId="8c65c875-dd13-4f23-8846-29d63dc983d4"/>
+    <listType typeId="f0bd5803-bdbe-4b46-a4dc-fbef5a72ba13" valueTypeId="cc648c86-d885-48b7-ac44-c1c3f23d8d82"/>
+    <managerType typeId="07a6ca42-3f80-48fe-8a81-f14e9e0257d9" valueTypeId="ad383472-d7a7-4a00-b8fd-a50c302fbe3a"/>
+  </producedTypes>
+  <name>СеянецАнтоциановаяОкраскаГипокотиля_NN_РФ_3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сеянец антоциановая окраска гипокотиля n n р ф 3</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d5ab0ec2-5b6f-41c3-a892-35402abe3eab">
+    <name>имеется</name>
+    <synonym>
+      <key>ru</key>
+      <value>QL - 9 - имеется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d312f6fb-a7fc-4e3f-9c8c-189d5d8c0e6e">
+    <name>отстуствует</name>
+    <synonym>
+      <key>ru</key>
+      <value>VG - 1 - отстуствует</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

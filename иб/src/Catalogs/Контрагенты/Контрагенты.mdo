@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70178b96-132e-40bf-ad4c-c630548883e9">
+  <producedTypes>
+    <objectType typeId="684cbf42-0638-40f6-b9bf-305fd42c2910" valueTypeId="3d9984c0-521d-45c2-a010-7b1c172d68d7"/>
+    <refType typeId="1f722fec-6f68-4572-9507-ac211268dcdb" valueTypeId="c2012531-e658-4379-bd5d-b7e90bc7a952"/>
+    <selectionType typeId="016c428d-4aae-462f-848b-71db7bd7b079" valueTypeId="4fd44365-00c4-4bda-9770-b4b5aeffd571"/>
+    <listType typeId="ec1e083f-bc61-47a0-a43b-f5b3f250dba0" valueTypeId="6fb2bf5b-6920-4d06-ba1e-3b68ce795cfb"/>
+    <managerType typeId="f6f49c68-4376-4e49-b4f1-ebc34a76dc96" valueTypeId="c7bd1f44-5c61-43d8-bd34-02bb18bde9c9"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Clients and providers</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Предопределенный</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что элемент справочника является предопределенным</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Признак того, что элемент справочника является предопределенным</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ссылка</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на элемент справочника</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Ссылка на элемент справочника</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Пометка удаления элемента справочника</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Пометка удаления элемента справочника</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование контрагента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется для визуальной идентификации контрагента</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Используется для визуальной идентификации контрагента</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код контрагента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code of сlient (provider)</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Код контрагента в программе</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Код контрагента в программе</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контрагент</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Client and provider</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Хранит список контрагентов</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Хранит список контрагентов</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

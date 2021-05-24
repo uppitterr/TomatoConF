@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="532bf277-b9fc-4111-ad78-d463d58d5994">
+  <name>ФорматExcel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формат excel</value>
+  </synonym>
+</mdclass:CommonPicture>

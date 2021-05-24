@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="966de1ff-6803-4ae5-8fb4-e217bd44c81f">
+  <producedTypes>
+    <objectType typeId="575e2acd-0be0-4b83-ae4b-13cdef9cf787" valueTypeId="0618df74-8474-466e-88b6-0d2026ace733"/>
+    <refType typeId="8ab720aa-b935-481c-a0aa-7e0f2fb261e9" valueTypeId="c407f5a9-43c9-4e81-912e-16432216131b"/>
+    <selectionType typeId="0afaad8e-7608-4b23-953c-bcccfc0e8903" valueTypeId="0b0bcb72-4544-4647-9f1c-8f82cb79c14f"/>
+    <listType typeId="4f62e932-be7d-42e2-a754-421b2156ab43" valueTypeId="2ba69956-fef1-45ad-8932-173704c339f1"/>
+    <managerType typeId="fd62f967-3c77-4dfa-8ab2-36f393a25fb9" valueTypeId="4c01bba8-ef44-4016-b83c-330b49d74c81"/>
+  </producedTypes>
+  <name>СпособыПримененияПрепаратов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы применения ветеринарных препаратов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Methods of use of veterinary products</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СпособыПримененияПрепаратов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СпособыПримененияПрепаратов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Предопределенный</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что элемент справочника является предопределенным</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Признак того, что элемент справочника является предопределенным</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ссылка</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на элемент справочника</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Ссылка на элемент справочника</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Пометка на удаление</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Пометка на удаление</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Название способа применения ветеринарных препаратов</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Название способа применения ветеринарных препаратов</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Код элемента справочника</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Код элемента справочника</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>         </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Способ применения препарата</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Method of using the product</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Способы применения вет. препаратов</value>
+  </listPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Methods of  veterinary products using</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Способы применения ветеринарных препаратов</value>
+  </extendedListPresentation>
+  <extendedListPresentation>
+    <key>en</key>
+    <value>Methods of  veterinary products  using</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Хранит перечень способов применения препаратов</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Хранит перечень способов применения препаратов</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>30</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

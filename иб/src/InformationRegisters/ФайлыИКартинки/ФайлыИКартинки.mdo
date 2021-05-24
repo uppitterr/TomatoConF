@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e73c91bf-3515-4ebe-ab1b-17d58ef421d6">
+  <producedTypes>
+    <selectionType typeId="53cb2af0-1e32-4ebe-b4e3-1dbfe35a4eea" valueTypeId="5f605d36-3d05-42fb-abf4-c03857e89aed"/>
+    <listType typeId="83d138cd-20e5-431c-848c-1cb0200534ae" valueTypeId="5d4f2b60-3679-400c-834c-6257c7023b0a"/>
+    <managerType typeId="fa126728-68cb-40f3-9bb0-8183302ecdd4" valueTypeId="e05bab97-00c2-450e-87e9-92ad5cd244fa"/>
+    <recordSetType typeId="3a6350e0-73ec-4600-b255-85a0f6a48aa5" valueTypeId="cb78fbaf-49b8-4326-b354-3be25401af13"/>
+    <recordKeyType typeId="d3ef1299-f188-4c33-a82b-cd0d70a35284" valueTypeId="7bcfb4b8-184a-41d2-a3e7-db557776ff9d"/>
+    <recordType typeId="5b32a0fa-b0a4-476d-889f-eec44ca28a67" valueTypeId="34a9ead7-b6e4-4978-8d00-b215b5328e2d"/>
+    <recordManagerType typeId="7bbb74bc-e961-42f9-ac60-923f1b9cd08f" valueTypeId="e38c29a5-71ec-49a6-a6a3-c5724a5ffaa0"/>
+  </producedTypes>
+  <name>ФайлыИКартинки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы и картинки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="53fce71f-dd7a-4978-b168-38446717e4a2">
+    <name>ХранимыйФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранимый файл</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Двоичные данные файла</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="12830a7b-2508-474b-a48a-2aa58d26f6bf">
+    <name>ВладелецФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец файла</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Присоединенный файл, к которому относятся данные</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

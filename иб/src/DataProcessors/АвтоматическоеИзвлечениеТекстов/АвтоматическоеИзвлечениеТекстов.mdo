@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e854e4bc-465e-40f2-ad49-edeaf369542c">
+  <producedTypes>
+    <objectType typeId="f5bf23fb-89f8-4a1a-b21d-89264a544bea" valueTypeId="7ab30729-b314-4217-bdc4-d0d0e7b29fcd"/>
+    <managerType typeId="c12c633c-b3e2-482d-b143-27fcd4958b26" valueTypeId="c1a4ef2c-d3f6-4540-b3ea-3b59b989860e"/>
+  </producedTypes>
+  <name>АвтоматическоеИзвлечениеТекстов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматическое извлечение текстов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АвтоматическоеИзвлечениеТекстов.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="13b1e0d3-b479-4f71-9d12-4247d167ab54">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

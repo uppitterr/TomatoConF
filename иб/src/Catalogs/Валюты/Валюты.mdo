@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc951f02-4250-4496-9d0d-f621cfe8c0ef">
+  <producedTypes>
+    <objectType typeId="1904277c-bf74-4f11-a3bf-184c84c0f909" valueTypeId="f633578b-5748-4769-a8f3-44566b7c42e1"/>
+    <refType typeId="4b95c2b4-c707-4dc8-9af6-55340538a178" valueTypeId="b1199d00-ea40-4905-be48-388d891d2dae"/>
+    <selectionType typeId="a9a1c6e1-8ef6-489b-8d03-67eb5de49f5d" valueTypeId="aaf4349b-b806-468b-b7a0-27ed4c6bb78d"/>
+    <listType typeId="c1bf7f3a-94d0-4e81-bc19-ed6cec1ed36c" valueTypeId="6d006b7c-efc4-4746-805f-462766a194b2"/>
+    <managerType typeId="5935d11b-ac1e-436c-974c-5c343e212890" valueTypeId="8b455f68-056b-43aa-96dc-45ce781e2bcc"/>
+  </producedTypes>
+  <name>Валюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Валюты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Валюты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>10</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="62df9e34-d1ca-470c-9c4f-3b0f49e344dc">
+      <name>Евро</name>
+      <description>EUR</description>
+      <code xsi:type="core:StringValue">
+        <value>978</value>
+      </code>
+    </items>
+    <items id="00438f79-491d-4966-9c07-aa54082f992a">
+      <name>Доллар</name>
+      <description>USD</description>
+      <code xsi:type="core:StringValue">
+        <value>840</value>
+      </code>
+    </items>
+    <items id="a2d2b3a1-2d80-4e9a-89dd-7c7b2226df29">
+      <name>Рубль</name>
+      <description>руб.</description>
+      <code xsi:type="core:StringValue">
+        <value>643</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Валюты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Валюты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="586d5c2f-f5e2-4a7f-bd2d-756b2dddc5b3">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d367bf09-dffd-49a3-b28b-7dec9fe071e8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="64b918c9-9fe6-4b6b-ae4d-0805f9b95b5b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

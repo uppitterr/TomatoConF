@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d17715a5-7e30-462f-8dd1-075272350752">
+  <producedTypes>
+    <objectType typeId="7d9016ca-d3ac-4061-90fe-9b0a4dbcae5c" valueTypeId="b6b3b157-e6cf-47b6-8781-1ae44766dfc9"/>
+    <managerType typeId="627edf03-d33c-424d-947f-6d6d62b9e604" valueTypeId="ab1f6617-7b5d-49c9-84c9-cb7f1b5155af"/>
+  </producedTypes>
+  <name>ГенераторКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генератор кода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГенераторКода.Form.Форма</defaultForm>
+  <attributes uuid="88f869ae-03b9-4fe9-a8ca-02cfe8c02c3a">
+    <name>ИспользоватьЗаполнитьЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать заполнить значения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cf0543af-538a-481d-8363-cf579e084b4d">
+    <name>УчитыватьСтандартныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать стандартные реквизиты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="78852d87-be42-4c18-8d45-e45c74bbc8b4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Генератор болванки документа</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="684158da-ae6f-47e8-809d-5677ec37303c">
+  <producedTypes>
+    <refType typeId="f9c7f0c9-e0b9-4868-b05d-b19046adf3ac" valueTypeId="8d03f815-537b-41e7-a8ee-c865b43ff46b"/>
+    <listType typeId="6be38002-6274-4d94-b279-ca745e28dc1f" valueTypeId="644eadf9-87e0-4d35-8e42-468d706abbcf"/>
+    <managerType typeId="520133e0-255f-4876-b216-980d30dfc5c3" valueTypeId="f3454308-1983-4d4f-aec3-e1dffbc715ad"/>
+  </producedTypes>
+  <name>РодительскаяФорма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Родительская форма</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6474c1af-02a1-4921-9d1c-7f059f55edcd">
+    <name>Мать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b373101-a583-4935-9307-701fe58bb95b">
+    <name>Отец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отец</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

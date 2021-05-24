@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a68876c-2f6e-481b-9e75-b30f8e1afce7">
+  <producedTypes>
+    <objectType typeId="37cb22bb-1ec9-4968-bb40-0fb2e0b0c4e9" valueTypeId="ab66ccfe-e0ef-45b8-b1ae-e5232ed6aa62"/>
+    <refType typeId="b96ca450-a787-44f7-8ac9-aa8cdb9ba351" valueTypeId="ed13a935-254d-4852-84ab-acdc0a32dd7b"/>
+    <selectionType typeId="486492ce-61ee-4156-a551-1454e23e4bcb" valueTypeId="e9b814d3-6990-4db4-bc42-6a0ece12b487"/>
+    <listType typeId="f42f4c65-01d5-4217-b746-35110b98314d" valueTypeId="df7a809e-348e-4dec-8092-f8d8c3979dc9"/>
+    <managerType typeId="a749416d-1643-4586-bf12-2e024922d462" valueTypeId="27d8dc07-354b-48aa-b6a2-d90e08866fb0"/>
+    <containerType typeId="d83d53df-8f49-4665-80af-ab41e6972fe5" valueTypeId="cc4c02d9-9115-4964-b63b-439451fdd548"/>
+  </producedTypes>
+  <name>СостояниеГена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние гена</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.СостояниеГена.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.СостояниеГена.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="dca6e1be-c911-47cc-9345-9f7ae22e4858">
+    <name>состояниеГена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние гена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>24</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9efe3679-bb3b-4632-b585-8f1a6d19e132">
+  <producedTypes>
+    <objectType typeId="4eef7b5c-52ad-4abf-a47e-c2203280d6ef" valueTypeId="03cc73f7-ed4d-4485-863b-6ef2a93deb60"/>
+    <refType typeId="fa5fb690-d99c-4c50-ba68-460eb79c3acf" valueTypeId="c0d33133-e8c4-4de1-9aa6-2662848cad53"/>
+    <selectionType typeId="946bd837-f415-4d41-8d66-c5ba8ab21953" valueTypeId="67925d56-aaa1-4be3-858e-ff29ecb712a0"/>
+    <listType typeId="7f2930ca-4e4b-4f3e-81b3-01fef4bedd27" valueTypeId="2be94c6f-fa8f-407c-b6af-6a335b5ccba1"/>
+    <managerType typeId="18afda45-568e-4f7e-8627-affd80a5864d" valueTypeId="7c3e378e-5ac6-4bf5-a62c-e423efeac430"/>
+  </producedTypes>
+  <name>ХранилищеФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилище файлов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ХранилищеФайлов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ХранилищеФайлов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.ХранилищеФайлов.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Хранилище данных для справочников</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Фото</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ХранилищеФайлов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.ХранилищеФайлов.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.ХранилищеФайлов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ХранилищеФайлов.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.ХранилищеФайлов.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <attributes uuid="2da56bed-8c1e-4f54-bd43-1ca460500b7a">
+    <name>ДанныеХЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные хранилища значений</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f7580c63-4751-4dc4-ade3-0032ed1ff9bd">
+    <name>ДанныеТекущаяДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f837172c-0f26-4d83-a9d0-089ae1139330">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73c9ceac-7d32-4d3c-926a-4ff9063ed2d1">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3d736d0d-4a3e-4ee1-9faf-51065bf569d7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0a174502-0a99-4a13-bab6-879a99376344">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="185db0fc-32ce-47dc-a065-cd7bb705f662">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

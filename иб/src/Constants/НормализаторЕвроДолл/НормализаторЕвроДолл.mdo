@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="748a30b7-de90-4cd0-8355-8845a9271190">
+  <producedTypes>
+    <managerType typeId="1e604eb7-6766-4287-ba67-697a81bd4308" valueTypeId="9338b220-bd06-4991-8972-b7b0e45cad2a"/>
+    <valueManagerType typeId="0fcbc529-fdfb-4f3d-82c3-75cf77a54106" valueTypeId="e6787489-45ff-422d-bb78-061c86ebba4b"/>
+    <valueKeyType typeId="17048387-bb66-4d14-bf4a-9192e0e86550" valueTypeId="a53e4f01-ac81-425a-89a0-efa427b68452"/>
+  </producedTypes>
+  <name>НормализаторЕвроДолл</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормализатор евро/долл</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

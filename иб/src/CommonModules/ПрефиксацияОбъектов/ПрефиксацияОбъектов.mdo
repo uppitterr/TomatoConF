@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2e7750c-cd7a-48f0-a041-0691472573a2">
+  <name>ПрефиксацияОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префиксация объектов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Префиксация объектов</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

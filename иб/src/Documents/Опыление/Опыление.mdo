@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6628ef5-3dcf-448b-90dc-90a0f510cb65">
+  <producedTypes>
+    <objectType typeId="4b4de183-fc8b-4fc1-ab13-cf765acb98e3" valueTypeId="bf0ccf7b-8b94-4338-8351-b656dd868051"/>
+    <refType typeId="c537123d-3f3f-4126-b8b8-d91140de0297" valueTypeId="b4090ba3-b08e-422e-890a-f91d10326655"/>
+    <selectionType typeId="11178413-2ae6-4ed3-b567-7b31834ddb94" valueTypeId="00950de6-f2b6-4c1d-94e2-1cf8871bcf64"/>
+    <listType typeId="ae89adce-d855-4102-93db-f1db6f404bab" valueTypeId="d9627d4d-f769-44de-9b9f-f3daf3079c2f"/>
+    <managerType typeId="ef3e747f-f3c9-4699-a289-22ca0c9af572" valueTypeId="4c4e96eb-9687-4b09-9750-88573aa17168"/>
+  </producedTypes>
+  <name>Опыление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Опыление</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Insemination</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Опыление.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведен</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Проведен</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет проведен документ или нет</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Определяет проведен документ или нет</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ссылка</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на документ</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Ссылка на документ</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет помечен документ на удаление или нет</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Определяет помечен документ на удаление или нет</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата документа</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Date of the document</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Number</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Порядковый номер документа</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Serial number of the document</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>           </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Опыление</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Insemination</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Отражает факт осеменения свиноматок</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Отражает факт осеменения свиноматок</value>
+  </explanation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Опыление.Form.ФормаДокументаУпр</defaultObjectForm>
+  <defaultListForm>Document.Опыление.Form.ФормаСпискаУпр</defaultListForm>
+  <defaultChoiceForm>Document.Опыление.Form.ФормаВыбораУпр</defaultChoiceForm>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <attributes uuid="941d3b30-7c57-45f7-839d-e67b31555fb0">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Responsible</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сотрудник, ответственный за проведение осеменения</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Сотрудник, ответственный за проведение осеменения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1a255b6-fb28-4597-afd6-23080bb370e2">
+    <name>КодСектора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код сектора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sector code</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Указывается код сектора, в котором проводится осеменение. Используется для удобства заполнения корпуса и сектора</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Указывается код сектора, в котором проводится осеменение. Используется для удобства заполнения корпуса и сектора</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="795149b2-88ef-4e50-90d3-8ff8e8139fd8">
+    <name>Сектор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сектор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sector</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сектор, в котором проводится осеменение</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Сектор, в котором проводится осеменение</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.Опыление.Attribute.Корпус</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be245b2d-9db0-441e-8c4b-cbf21793003a">
+    <name>Ферма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ферма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Farm</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ферма, в которой проводится осеменение</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Ферма, в которой проводится осеменение</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="095814d1-3db4-4dd6-af7e-9b677b6aff57">
+    <name>Корпус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корпус</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Building</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Корпус, в котором проводится осеменение</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Building, where insemination is carried out</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.Опыление.Attribute.Ферма</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1ad63ae7-157e-4ac1-976b-a57a248ed948">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, ответственный за ввод данных</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Пользователь, ответственный за ввод данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="25a3bbdf-704f-4e21-a32a-83f09adf1fd8">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Comment</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий к документу</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Комментарий к документу</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="feacbbf0-78ea-45a7-ab66-22209b4ee7cb">
+    <name>ИскусственноеОсеменение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Искусственное осеменение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Artificial insemination</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак искусственного оплодотворения свиноматки</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Признак искусственного оплодотворения свиноматки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="10295726-19a4-4bda-96ee-a2fbf703a6c1">
+    <name>ФормаДокументаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6c6ac0fb-4da9-4a37-b13e-ba3a8ead617b">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="32aaaec7-9f69-4ba5-b0bc-67bc64a15696">
+    <name>ФормаВыбораУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="384d85dd-1d30-4492-adf6-3b8d6ebccf67">
+    <producedTypes>
+      <objectType typeId="2aabd02f-5150-47d3-91d5-2172a91aa9eb" valueTypeId="d9c0d3cf-7f2d-467b-bca9-8bbc4abf231e"/>
+      <rowType typeId="e6bfc3da-4836-4448-8628-aac225782e9f" valueTypeId="95d1a41a-86d9-4ca7-8db6-b2d8e79fdb00"/>
+    </producedTypes>
+    <name>Свиноматки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свиноматки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sows</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Табличное поле Свиноматки</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Sows</value>
+    </toolTip>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер строки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Line number</value>
+      </synonym>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="5d81995f-e2cb-4f35-bdea-425a91083e12">
+      <name>НомерСвиноматки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер свиноматки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Sow's number</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Индивидуальный номер свиноматки</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Individual number of sow</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8505243a-d5d3-4e8a-bd09-38b2d1f36505">
+      <name>Свиноматка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свиноматка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Sow</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Осемененная свиноматка</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Inseminated sow</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Дата</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Опыление.StandardAttribute.Date</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>СсылкаВладелец</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Опыление.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Ферма</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Опыление.Attribute.Ферма</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Группы</name>
+        <value xsi:type="core:FixedArrayValue">
+          <values xsi:type="core:ReferenceValue"/>
+          <values xsi:type="core:ReferenceValue"/>
+          <values xsi:type="core:ReferenceValue"/>
+        </value>
+      </choiceParameters>
+      <choiceParameters>
+        <name>Состояния</name>
+        <value xsi:type="core:FixedArrayValue">
+          <values xsi:type="core:ReferenceValue"/>
+          <values xsi:type="core:ReferenceValue"/>
+          <values xsi:type="core:ReferenceValue"/>
+          <values xsi:type="core:ReferenceValue"/>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="67cc33a6-9b69-40a1-8f2a-be2ba7b96dae">
+      <name>НомерХряка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер хряка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Number boar</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Индивидуальный номер хряка №1</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Individual number of boar №1</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f248b30f-d622-4a56-9496-ef28b1a9c9b2">
+      <name>Хряк</name>
+      <synonym>
+        <key>ru</key>
+        <value>Хряк</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Boar</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Хряк №1</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Boar №1</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Дата</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Опыление.StandardAttribute.Date</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>СсылкаВладелец</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Опыление.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Ферма</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Опыление.Attribute.Ферма</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Группы</name>
+        <value xsi:type="core:FixedArrayValue">
+          <values xsi:type="core:ReferenceValue"/>
+          <values xsi:type="core:ReferenceValue"/>
+          <values xsi:type="core:ReferenceValue"/>
+          <values xsi:type="core:ReferenceValue"/>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2552a1dd-4f10-4f7e-8508-c4d08b960c0c">
+      <name>НомерХряка2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер хряка 2</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Number boar 2</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Индивидуальный номер хряка №2</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Individual number of boar №2</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9e474906-659f-4944-82dd-d61155e5dbdb">
+      <name>Хряк2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Хряк</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Boar 2</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Хряк №2</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Boar №2</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Дата</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Опыление.StandardAttribute.Date</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>СсылкаВладелец</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Опыление.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Ферма</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Опыление.Attribute.Ферма</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Группы</name>
+        <value xsi:type="core:FixedArrayValue">
+          <values xsi:type="core:ReferenceValue"/>
+          <values xsi:type="core:ReferenceValue"/>
+          <values xsi:type="core:ReferenceValue"/>
+          <values xsi:type="core:ReferenceValue"/>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f6a27376-b860-4429-9121-9005ebebdc30">
+      <name>НомерХряка3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер хряка 3</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Number boar 3</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Индивидуальный номер хряка №3</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Individual number of boar №3</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c2e2bc49-84db-4bfd-ab71-e69dd440774d">
+      <name>Хряк3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Хряк</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Boar 3</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Хряк №3</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Boar №3</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Дата</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Опыление.StandardAttribute.Date</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>СсылкаВладелец</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Опыление.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Ферма</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Опыление.Attribute.Ферма</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Группы</name>
+        <value xsi:type="core:FixedArrayValue">
+          <values xsi:type="core:ReferenceValue"/>
+          <values xsi:type="core:ReferenceValue"/>
+          <values xsi:type="core:ReferenceValue"/>
+          <values xsi:type="core:ReferenceValue"/>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4c538745-6aa9-48be-be43-d6a65a7156f8">
+      <name>Станок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Станок</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Pen</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Станок, в котором проводится осеменение</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Станок, в котором проводится осеменение</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="9951f9e5-dc44-4272-be52-a06a05b6680d">
+    <name>МакетДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет документа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Макет документа</value>
+    </synonym>
+  </templates>
+  <templates uuid="b507d69c-643c-459c-aeab-638f7c27d593">
+    <name>ПечатнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатная форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Печатная форма</value>
+    </synonym>
+  </templates>
+  <commands uuid="8f77b274-b39f-47c3-8872-1f5b13596aa1">
+    <name>ДокументОсеменение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ осеменение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Document insemination</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.Опыление</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Document>

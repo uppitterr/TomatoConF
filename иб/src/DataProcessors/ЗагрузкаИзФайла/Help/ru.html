@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta content="text/html;charset=utf-8" http-equiv="content-type"></meta><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link><meta name="GENERATOR" content="MSHTML 9.00.8112.16441"></meta></head><body>
+<p align="left">Загрузка спецификации из файла программ проектирования САПР типа  "Протеус".<br>Файл создается в "Протеус" по команде: Сервис/Спецификация/"Full CSV Output"</p>
+<p align="left">(полный вывод спецификации в текстовый файл в формате CVS) </p>
+<p align="left">Пример файла  для загрузки, созданный Протеусом:<br></p>
+<p> </p>
+<p class="Usual">Category,Reference,Value,Order Code<br>Resistors,"R1",100R,M100R<br>Resistors,"R2",100R,M100R<br>Resistors,"R3",100R,M100R<br>Resistors,"R4",100R,M100R<br>Resistors,"R5",100R,M100R<br>Resistors,"R6",100R,M100R<br>Resistors,"R7",100R,M100R<br>Resistors,"R8",100R,M100R<br>Resistors,"R9",300R,M300R<br>Resistors,"R10",300R,M300R<br>Resistors,"R11",300R,M300R<br>Resistors,"R12",300R,M300R<br>Resistors,"R13",300R,M300R<br>Resistors,"R14",300R,M300R<br>Integrated Circuits,"U1",ATTINY261,<br>Integrated Circuits,"U2",DS2413P,<br>Integrated Circuits,"U3",DS2413P,<br>Integrated Circuits,"U4",4015,<br></p>
+<p>При разрещенном значениии "Создавать идентификаторы" , недостающие элементы справочника идентификаторов создаются автоматически. </p>
+<p>У нового идентификатора, нужно в ручную определить соответствие из справочника "Номенклатуры".</p>
+<p>При разрешенном значении "Создавать номенклатуру" будут также созданы и элементы для справочника "Номенклатура" аналогичные по названию идентификаторам.</p>
+<p>Примечание: До тех пор, пока не будет установлено соответствие элементов, их нельзя перенести в накладную проекта.</p>
+<p>Алгоритм работы загрузки:</p>
+<p>1) Поиск в первой строчке загружаемого файла реквизитов назначеного формата.</p>
+<p>2) Определение позиции реквизита относительно  файла загрузки.</p>
+<p>3) Заполнение таблицы идентификаторами и значениями получеными из  файла.</p>
+<p>4) Создание новых элементов если это разрешено на форме флажками "Создавать...".</p>
+<p>5) Заполнение характеристик у элементов справочника "номенклатуры" если такие указаны в формате загрузки.</p>
+<p> </p></body></html>

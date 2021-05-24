@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78176659-780d-4f1e-989e-abb5446f2f29">
+  <producedTypes>
+    <objectType typeId="67623058-a06b-4a13-92e4-03dff654fe79" valueTypeId="3725d800-4ce3-411a-8142-f85b9605937d"/>
+    <managerType typeId="055a966b-adda-44f7-835c-51e2fc9d9395" valueTypeId="82a7b113-fe16-40e0-a9e1-0c5ddbef69b0"/>
+  </producedTypes>
+  <name>ПечатьЗаготовокШтрихкодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать заготовок штрихкодов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПечатьЗаготовокШтрихкодов.Form.ВводПараметров</defaultForm>
+  <attributes uuid="daa71707-d9f8-4a4c-8cd0-82918ee957e6">
+    <name>КоличествоЗаготовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество заготовок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="886408d3-1974-4d10-9e05-4eea9d2acdf8">
+    <name>КоличествоЭкземпляров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество экземпляров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="16c351a8-db43-4f52-ae59-cc828618bcb5">
+    <name>ВводПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод параметров</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="623d747d-66d1-4973-a212-ca88640d3b2b">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

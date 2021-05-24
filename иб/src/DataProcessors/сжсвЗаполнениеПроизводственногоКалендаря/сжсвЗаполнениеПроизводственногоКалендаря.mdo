@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88dda75b-bbb1-46a3-bc7d-1a0d80439c6c">
+  <producedTypes>
+    <objectType typeId="ce1aa94f-4ac0-4d4b-808c-00ed6c82a7a6" valueTypeId="b2fc8fb7-b03c-4c3a-a836-b4b2d1ecb39e"/>
+    <managerType typeId="685a8c56-e85c-4012-81c1-91338cad2245" valueTypeId="0df53860-fd02-4c93-aca6-b8caf9cce39a"/>
+  </producedTypes>
+  <name>сжсвЗаполнениеПроизводственногоКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение производственного календаря</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Filling in according to  the factory calendar</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.сжсвЗаполнениеПроизводственногоКалендаря.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Заполняет производственные календари</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Заполняет производственные календари</value>
+  </explanation>
+  <forms uuid="ea65eab9-4f68-4ed7-99f1-4af7b56be091">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

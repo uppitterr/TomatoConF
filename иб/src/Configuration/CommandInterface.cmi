@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>8430ca9d-1906-40a9-aa6c-9653c779697e</subsystems>
+    <subsystems>eea86984-3c5d-4a57-aadc-784646636e67</subsystems>
+    <subsystems>f8651500-fabe-42a0-9e53-e5318c1394cb</subsystems>
+    <subsystems>8c3ebed6-d743-4c84-9a12-bd88af7b4469</subsystems>
+    <subsystems>1f0a7f1c-fd3d-4cf1-859f-9164ed6396af</subsystems>
+    <subsystems>Subsystem.Настройки</subsystems>
+    <subsystems>Subsystem.Обработки</subsystems>
+    <subsystems>c4c2d081-ac6a-4a01-af72-9527fdc4b39e</subsystems>
+    <subsystems>Subsystem.НЕЙРОСЕТЬ</subsystems>
+    <subsystems>Subsystem.ТЕСТ</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

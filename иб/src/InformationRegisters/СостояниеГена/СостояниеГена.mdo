@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="114e78aa-5957-4869-aa5c-35e21ddb4c7f">
+  <producedTypes>
+    <selectionType typeId="15bd64be-1ce4-42cf-bf85-033f6042dcd5" valueTypeId="88cbaedb-2512-45c7-b0c8-da23a9b4ed10"/>
+    <listType typeId="ead0b37c-b50e-4e77-9ba7-730cd54aa2d1" valueTypeId="7e01058e-53a4-4bdb-b2c2-adcb28974d97"/>
+    <managerType typeId="7ab86b75-a3cd-4efa-8f9e-092b24fb52e9" valueTypeId="d0013429-35b0-4656-b7dc-01a2b837c339"/>
+    <recordSetType typeId="037293ea-ad62-4c33-ae6b-bbfd0a3bd338" valueTypeId="21f98264-191f-45da-a070-d2e62b3355c8"/>
+    <recordKeyType typeId="38d7270b-280c-4459-ad85-6b4599b6babd" valueTypeId="2e944e7b-877e-407c-87e4-717c0e89b8b8"/>
+    <recordType typeId="02f3b16c-c536-4f44-aaeb-f0c7e924ae6a" valueTypeId="5ac0cf4c-a1c4-422b-966e-76397933c7f9"/>
+    <recordManagerType typeId="60de67a7-4d9c-46b0-a780-2731ea4df897" valueTypeId="e26bc8e3-0c2c-4c6c-8445-26aa5813de2c"/>
+  </producedTypes>
+  <name>СостояниеГена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние гена</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="90d80038-6e24-4c21-9ec3-720baa78f91f">
+    <name>Доминант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доминант</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a7f6a95e-f586-4d37-8f08-f05ce7a328ed">
+    <name>Рецесив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рецесив</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

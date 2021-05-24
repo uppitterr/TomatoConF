@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a26e6e6c-40ab-46bb-9d60-db81a8979ea6">
+  <producedTypes>
+    <managerType typeId="bbcedfb5-d911-4fb1-b315-0ae4dec95416" valueTypeId="bf52bf2a-afc6-4758-9406-10360cc1bf80"/>
+    <valueManagerType typeId="67e45d28-335d-4daa-bc4b-ed55e3fda282" valueTypeId="c3207dc6-ce10-47d0-859a-3473165d1312"/>
+    <valueKeyType typeId="9fdd82ca-3af7-4077-a3e6-337d6d0511bc" valueTypeId="15a682cf-aa35-4a72-9d0f-b830233c78fd"/>
+  </producedTypes>
+  <name>ВнешнееХранилищеФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешнее хранилище файлов</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

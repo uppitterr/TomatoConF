@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3bc3646-a4e6-43a3-ba9d-03f6dbd76c95">
+  <producedTypes>
+    <objectType typeId="cfad439e-875b-412a-ae9c-63e8b9774848" valueTypeId="17f3975a-74c9-4968-aeaa-3a3f737c1eca"/>
+    <managerType typeId="d08cdfac-0848-4f19-a542-fcdb6a634181" valueTypeId="8ed29424-1944-4b32-96fa-7f44343dd1a0"/>
+  </producedTypes>
+  <name>ПрочитатьПДФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочитать ПДФ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПрочитатьПДФ.Form.Форма</defaultForm>
+  <forms uuid="e01be702-18cd-488c-aa9e-237e3d1c2ee2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2de316a7-8093-4ead-a214-212b5249f0b1">
+    <name>hstart</name>
+    <synonym>
+      <key>ru</key>
+      <value>Hstart</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="132c811e-c0ff-4633-b485-ce48da150e8f">
+    <name>pdftotext</name>
+    <synonym>
+      <key>ru</key>
+      <value>Pdftotext</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="25c2f772-0bf5-4826-b92e-31c00f4eae55">
+    <name>xpdfrc</name>
+    <synonym>
+      <key>ru</key>
+      <value>Xpdfrc</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

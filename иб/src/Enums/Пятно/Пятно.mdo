@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45a2bbdb-ee3e-4527-a2ae-d2e01e128a9c">
+  <producedTypes>
+    <refType typeId="e8cbeb1b-2042-477d-a9ff-580acb9830a4" valueTypeId="6b2c5db6-1ddf-4ad6-a15f-97a57b3f418b"/>
+    <listType typeId="df159d2b-ec8a-48df-9d88-502315b2b37e" valueTypeId="f061c1d1-3e28-4ecf-a716-5f15b4e8fdb0"/>
+    <managerType typeId="733b18bf-3331-4835-b93e-2204f5594d8e" valueTypeId="34eaeea6-84cf-44e7-8603-fd34f3943af7"/>
+  </producedTypes>
+  <name>Пятно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пятно</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a5464fd6-3143-42fa-ad86-087bdef3ca8a">
+    <name>пятноЕсть</name>
+    <synonym>
+      <key>ru</key>
+      <value>U+</value>
+    </synonym>
+    <comment>пятно есть U+</comment>
+  </enumValues>
+  <enumValues uuid="487e3252-f5d3-4086-8c4d-a5707d7e01cd">
+    <name>пятнаНет</name>
+    <synonym>
+      <key>ru</key>
+      <value>U-</value>
+    </synonym>
+    <comment>пятна нет U-</comment>
+  </enumValues>
+  <enumValues uuid="ab6c0dc8-b4cf-48a3-9c5c-6a3b75990c97">
+    <name>пятноестьинет</name>
+    <synonym>
+      <key>ru</key>
+      <value>U-/+</value>
+    </synonym>
+    <comment>пятно есть потом исчезает</comment>
+  </enumValues>
+</mdclass:Enum>

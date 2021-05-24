@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40943711-b518-46cb-83f3-64468a2d935b">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбщаяКартинка19</picture>
+  </picture>
+  <content>CommonPicture.ОбщаяКартинка19</content>
+  <content>Enum.ТипРоста</content>
+  <content>Enum.ТипТомата</content>
+  <content>Enum.ПлодОкраскаПриСозревании</content>
+  <content>Enum.СочленениеПлодаСПлодоножкой</content>
+  <content>Enum.ЦветокОкраска</content>
+  <content>Enum.Пятно</content>
+  <content>Enum.СеянецАнтоциановаяОкраскаГипокотиля_NN_РФ_3</content>
+  <content>Enum.СеменаОпушение_NNРФ_2</content>
+  <content>Enum.СеменаОкраска_NNРФ_1</content>
+  <content>Enum.СилаРоста</content>
+  <content>Enum.отбор</content>
+  <content>Enum.РодительскаяФорма</content>
+  <content>FilterCriterion.СвязанныеДокументы</content>
+  <content>Document.БИБЛИО</content>
+  <content>ChartOfCharacteristicTypes.СостояниеГена</content>
+  <content>InformationRegister.СостояниеГена</content>
+  <content>InformationRegister.ФайлыИКартинки</content>
+  <content>InformationRegister.КурсыВалют</content>
+</mdclass:Subsystem>

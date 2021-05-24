@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0110b5b-7d56-4ea4-8530-3f4fe9502b92">
+  <producedTypes>
+    <objectType typeId="ffa01ec3-f0ac-413d-9585-91d7cb55da71" valueTypeId="9d88b239-9332-4800-acc4-24304e74e0b1"/>
+    <refType typeId="8a1c5f3e-0996-4f0c-b2dd-d8ff17c2dd94" valueTypeId="0ba81b51-d7d1-46bf-937e-d877ea5f8187"/>
+    <selectionType typeId="c8e6f7f3-0c49-4ebf-8208-257f23a7a5dc" valueTypeId="767ea852-843a-44c7-bce3-aebf9209cbd2"/>
+    <listType typeId="f4401e91-b0a7-4a1c-84a0-f179fbdefcc6" valueTypeId="403e68db-5964-4791-a014-7f5f488ed49f"/>
+    <managerType typeId="3451a99a-8d32-44e2-a84b-a643cb54f66f" valueTypeId="e9e5286e-8c0e-4af9-8654-d211cd478605"/>
+  </producedTypes>
+  <name>ОздоровительныеМероприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ветеринарные мероприятия</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Veterinary actions</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОздоровительныеМероприятия.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОздоровительныеМероприятия.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Предопределенный</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что элемент справочника является предопределенным</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Признак того, что элемент справочника является предопределенным</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ссылка</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на элемент справочника</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Ссылка на элемент справочника</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Deleted</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Пометка на удаление</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Пометка на удаление</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это группа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Group</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак &quot;Это группа&quot;</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Признак &quot;Это группа&quot;</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Parent</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Вышестоящая группа, в которую входит ветеринарное мероприятие</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Вышестоящая группа, в которую входит ветеринарное мероприятие</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ОздоровительныеМероприятия.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование ветеринарного мероприятия</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Наименование ветеринарного мероприятия</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Код элемента справочника</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Код элемента справочника</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>         </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ветеринарное мероприятие</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Veterinary action</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Хранит информацию о ветеринарных мероприятиях</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Stores information about veterinary actions</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ОздоровительныеМероприятия.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ОздоровительныеМероприятия.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="b4e34de4-2847-465d-a2ec-decf13690245">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Description</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Описание ветеринарного мероприятия</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Description veterinary activities</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aa2b8fdb-4aa4-482b-a640-46cee4185200">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для печати</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Full name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование для печати</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Name Print</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1c4bacc-4eb5-41b1-bd34-d689018de879">
+    <name>ТипВетеринарногоМероприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ветеринарного мероприятия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of veterinary measures</value>
+    </synonym>
+    <type>
+      <types>EnumRef.сжсвТипыВетеринарныхМероприятий</types>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Type of veterinary measure</value>
+    </toolTip>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип проводимого ветеринарного мероприятия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="96b00b41-c82d-4141-9173-12eed19f6820">
+    <producedTypes>
+      <objectType typeId="23540a78-e9e1-48ba-a705-fd89f5bac88e" valueTypeId="195c9281-56b2-44e3-9798-91d6d3e80110"/>
+      <rowType typeId="c2d0eb93-11f7-453c-8c69-9591040ee43c" valueTypeId="d32d7b45-f8c9-408d-87f7-b6a960529537"/>
+    </producedTypes>
+    <name>Показатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатели</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Indicators</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Показатели, по которым проводится ветеринарное исследование</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Indicators for which is held veterinary research</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a15267a0-d799-4a8d-b3d1-8e2aee48162a">
+      <name>Показатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показатель</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Indicator</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Показатель для оценки</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Indicators to assess</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="099d2bdd-99f4-4187-a498-80eb129bdec8">
+      <name>Норма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Норма</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Rate</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Норма для данного показателя</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>The rate for this indicator</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="05f25cda-0959-4757-9021-97e93d6228b8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="be9f5e37-cfcc-42ab-8e53-c78330644f46">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

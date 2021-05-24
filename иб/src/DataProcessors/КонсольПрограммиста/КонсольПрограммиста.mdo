@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d3c8d3b-dbde-4b6f-82cf-477529f4a585">
+  <producedTypes>
+    <objectType typeId="be9600fc-c1c7-4023-9c37-c39006ef5ae9" valueTypeId="bc996f1e-521d-43be-94c4-c545e1fce745"/>
+    <managerType typeId="cd944852-1198-4ae3-b877-b8001bdc2230" valueTypeId="49ff731c-5b3c-4ba5-80c7-7e29e1cb51c5"/>
+  </producedTypes>
+  <name>КонсольПрограммиста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль программиста</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонсольПрограммиста.Form.Форма</defaultForm>
+  <forms uuid="48777059-6d8a-42d0-8d87-fb779bd4a133">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="220745ad-b63f-4d3b-b911-ae9da197d46e">
+    <name>ФормаВыбораМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора метаданных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

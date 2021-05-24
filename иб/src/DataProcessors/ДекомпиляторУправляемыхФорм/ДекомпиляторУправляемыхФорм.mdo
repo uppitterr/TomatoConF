@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdb1e3e0-e3f5-4f51-a4a4-71f9f3741790">
+  <producedTypes>
+    <objectType typeId="110cf0e4-fd60-4dd7-9d3e-7e79621ae8e4" valueTypeId="c8b3f93c-7643-41e0-aae5-d7252b5bbff1"/>
+    <managerType typeId="988a7112-8dc4-4479-833b-66b9f20a665a" valueTypeId="e47cd9fe-4cb2-4fd6-bd02-20f7e284f4e5"/>
+  </producedTypes>
+  <name>ДекомпиляторУправляемыхФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Декомпилятор управляемых форм</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДекомпиляторУправляемыхФорм.Form.Форма</defaultForm>
+  <forms uuid="fde9def6-8572-4ec1-9705-f1630313baa7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6d5afd31-c8d7-4995-b884-7cda70fbb609">
+    <name>СвойстаЭлементовФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойста элементов формы</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

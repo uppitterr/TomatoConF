@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccf02235-a901-479a-bc4e-e1cedac3aad2">
+  <producedTypes>
+    <selectionType typeId="c9aa6d7c-6f62-4985-9090-d802ab329d65" valueTypeId="7514b3bf-4c48-456f-9d48-992b71f220ca"/>
+    <listType typeId="883885c6-c32c-441c-91be-a720a8d31cfa" valueTypeId="631fbc87-ca24-4eb7-b0d2-a3cadef6e6c5"/>
+    <managerType typeId="5c6e9de4-ce6b-4568-9984-a5b9939476be" valueTypeId="38390daa-c902-4b02-bca5-94503a19fa46"/>
+    <recordSetType typeId="eea17ac0-1cca-4419-bb7a-161f61e8b5d9" valueTypeId="3c98a2a8-f428-4c6c-a875-b2055f8ded38"/>
+    <recordKeyType typeId="467e8915-f3a4-4cba-8b19-288c4566f3d3" valueTypeId="424d9245-ee79-4e5c-9106-5c279b182d81"/>
+    <recordType typeId="a1a694a6-9271-4604-b737-37c08fb76229" valueTypeId="1878e91c-1e5e-4db2-b203-026f952272e0"/>
+    <recordManagerType typeId="d90036df-c7bc-4ff8-a4a4-33b94e46e5ed" valueTypeId="b5568e94-5f99-45f4-8f2b-3f735456e4b3"/>
+  </producedTypes>
+  <name>ИсторияМатеринскихЛиний</name>
+  <synonym>
+    <key>ru</key>
+    <value>История материнских линий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Хранит историю материнских линий</value>
+  </explanation>
+  <resources uuid="f0c3146e-fd7a-4e17-a9b8-e25d1408a5e8">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cdecee9c-b506-4d93-88f8-21bf0546ff0f">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата события по материнской линии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9f33a232-f36a-4c3b-bb90-f63495e1aea0">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <type>
+      <types>EnumRef.События</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d357324d-0217-4b93-a8f1-d6503beb9ea1">
+    <name>МатеринскаяЛиния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материнская линия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МатеринскаяЛиния</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

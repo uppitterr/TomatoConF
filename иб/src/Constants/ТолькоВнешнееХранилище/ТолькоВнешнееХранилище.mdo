@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ef77fd5-b49e-4aa1-bb7a-3dedef1c0f9b">
+  <producedTypes>
+    <managerType typeId="81453460-9c2f-4d40-a8c2-7894a6b6b99a" valueTypeId="09885768-6e6d-44c6-8bf4-276624049861"/>
+    <valueManagerType typeId="8bbd456d-eb47-4840-a17d-6e3c2eb0e052" valueTypeId="8e073a3c-da8d-44c1-80b0-2ec25b43c452"/>
+    <valueKeyType typeId="e07ea071-c0ca-4d82-a94a-82fab5ce5313" valueTypeId="4864b379-2db1-4c82-80ae-ca2e5e6e6f41"/>
+  </producedTypes>
+  <name>ТолькоВнешнееХранилище</name>
+  <synonym>
+    <key>ru</key>
+    <value>Только внешнее хранилище</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

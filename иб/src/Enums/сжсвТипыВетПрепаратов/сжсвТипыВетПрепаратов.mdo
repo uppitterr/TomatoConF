@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a1f33b1-a295-4618-b2b1-d758925bc604">
+  <producedTypes>
+    <refType typeId="ac22f83a-01c8-445c-9053-8effeb096f85" valueTypeId="00696db3-d332-4fea-8e6c-4fe9a33a4180"/>
+    <listType typeId="4dece294-8123-4153-af39-80a6d66242e5" valueTypeId="89162ee6-45f1-4fcd-a885-d04d76cc0ac9"/>
+    <managerType typeId="a0dccb01-5ac7-4bb3-b94c-0d66fcb4f35b" valueTypeId="f8bd9a93-9564-4d08-88b6-e1e8fe36edfc"/>
+  </producedTypes>
+  <name>сжсвТипыВетПрепаратов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы вет препаратов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Type of medicine</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Типы ветеринарных препаратов, применяемых в хозяйстве</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Types of veterinary medicine used in the economy</value>
+  </explanation>
+</mdclass:Enum>

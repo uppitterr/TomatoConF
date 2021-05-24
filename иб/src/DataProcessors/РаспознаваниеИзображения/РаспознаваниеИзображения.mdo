@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34dda883-9786-4f2d-8e51-2ee4faff7b60">
+  <producedTypes>
+    <objectType typeId="187cef05-48f8-4e03-a66c-72b631bf6049" valueTypeId="5c1be1b5-464b-4e23-871e-0e6e824c5d59"/>
+    <managerType typeId="112372e2-2d7a-4e43-8967-a379da6b9a59" valueTypeId="093c3417-4742-4a51-8420-658674b70ff7"/>
+  </producedTypes>
+  <name>РаспознаваниеИзображения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распознавание изображения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаспознаваниеИзображения.Form.Форма</defaultForm>
+  <auxiliaryForm>DataProcessor.РаспознаваниеИзображения.Form.Форма</auxiliaryForm>
+  <forms uuid="19ad0262-e156-4e3d-a54c-a7b66ae31d76">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

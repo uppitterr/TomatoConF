@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49322e3b-a4f5-41e2-ba80-8f6841d22606">
+  <producedTypes>
+    <objectType typeId="428c8f7b-9d2a-47b3-af35-ddfc87cee7b0" valueTypeId="33806758-c1e6-4412-90c7-2a202f5456ca"/>
+    <managerType typeId="0307365b-4079-44f8-9078-2822aec99c23" valueTypeId="dc2111e5-79ee-4736-b21c-f4dc949dea03"/>
+  </producedTypes>
+  <name>КонсольКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль кода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонсольКода.Form.Форма</defaultForm>
+  <forms uuid="9b6446d8-648d-406a-b54e-ebe88b31949d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="fa42037f-3b67-4f45-b5f1-967ece2ad531">
+    <name>src</name>
+    <synonym>
+      <key>ru</key>
+      <value>src</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="da330e7b-20f6-436f-8ee2-2231e5fdfb5e">
+    <name>ПользовательскиеСниппеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательские сниппеты</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="66909b21-d413-4674-abd0-b10d9d641390">
+    <name>ПользовательскиеФункции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользовательские функции</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

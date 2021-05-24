@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="439925a6-7a9e-4e9f-ad64-467dbdad1c25">
+  <producedTypes>
+    <objectType typeId="3c8f1639-0034-4ca7-83d2-e5938b8763be" valueTypeId="d88c2bb9-1379-48b9-87af-53bfa207d4fd"/>
+    <managerType typeId="dd0f0b3a-b841-4789-b770-b35a1accd47b" valueTypeId="0d5ba4d6-dd10-457a-8c54-bc2eb4d51008"/>
+  </producedTypes>
+  <name>СтруктураХраненияБазыДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура хранения базы данных</value>
+  </synonym>
+  <comment>Структура хранения базы данных v1.2. (c) Коротаев Никита, 2012</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СтруктураХраненияБазыДанных.Form.Форма</defaultForm>
+  <forms uuid="eedbf802-4aca-4c4a-91d7-a6d38fd53318">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

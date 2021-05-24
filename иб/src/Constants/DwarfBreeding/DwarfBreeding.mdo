@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6904b2c9-f6f2-438b-9865-0849cc7ca110">
+  <producedTypes>
+    <managerType typeId="4b93cfd6-1764-46b9-8ed9-51c329d6bfbb" valueTypeId="badc52d5-ff9f-42d5-8ae3-be20f321558f"/>
+    <valueManagerType typeId="11a8e9e9-d976-4ad4-bbd5-63db4d1e2aae" valueTypeId="881bec7a-9666-4e95-bbc0-6b6365efea15"/>
+    <valueKeyType typeId="805181bb-875a-5020-bcf9-42d52474bc53" valueTypeId="1c04caf9-a2f2-556e-b80c-256e8d8b8719"/>
+  </producedTypes>
+  <name>DwarfBreeding</name>
+  <synonym>
+    <key>ru</key>
+    <value>Dwarf breeding</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a372960-5c82-4385-a375-039a9b702dde">
+  <producedTypes>
+    <objectType typeId="05c8aaa1-f33f-4dfc-b17f-32a7f0249ea8" valueTypeId="d60c7cfb-06f5-4f66-8798-05a4a7c90247"/>
+    <refType typeId="28e3768c-4f9b-4f4b-afc4-4c83d2c579ff" valueTypeId="07358089-d1af-457f-86a4-a90bf059da38"/>
+    <selectionType typeId="2e2ee920-6f29-403c-840f-8e9f776edbf7" valueTypeId="b3d8e4dd-5368-4b02-8343-3089157cdfff"/>
+    <listType typeId="e8d54eff-538e-4862-8948-8587ac48d81b" valueTypeId="4071b12b-675e-4dd5-bcde-239525613348"/>
+    <managerType typeId="7dcda3f0-d16b-42a1-957a-8caf1afcbde5" valueTypeId="5ed02baa-4d09-4520-83e9-e0dd591a04b9"/>
+  </producedTypes>
+  <name>Литература</name>
+  <synonym>
+    <key>ru</key>
+    <value>Литература</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Literature</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Литература.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Литература.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <synonym>
+      <key>en</key>
+      <value>Link</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <synonym>
+      <key>en</key>
+      <value>Deleted</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <synonym>
+      <key>en</key>
+      <value>Group</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>en</key>
+      <value>Parent</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа литературы</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Literature group</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Литература.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Название книги</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Book's name</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>en</key>
+      <value>Code</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Код литературы</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Literature code</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Книга</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Book</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Хранит литературу
+</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Stores literature</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Литература.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Литература.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="67b164d9-e982-42bb-b02d-efdc0bb84f62">
+    <name>Авторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авторы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Authors</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Авторы литературы</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Literature authors</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b84763ac-8410-4de5-a0f4-723ce2eb6162">
+    <name>Издательство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Издательство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Publishing</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Издательство литературы</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Publishing of literature</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ef36a42d-b939-4a9f-97c7-169b76ab65be">
+    <name>ГодИздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год издания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Year</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Год издания литературы</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Publishing year</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c0060bd5-2176-420b-bc38-ab41061fcf15">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Comment</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Comments</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4c0d2fde-d18d-4e2c-bed9-82757461d1b6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ae7a9b99-dfbf-4b0e-ade8-82f61b24654b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

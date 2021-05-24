@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="227acc2c-173b-4e46-a725-89647e845fb0">
+  <producedTypes>
+    <objectType typeId="887d0483-3e18-4d2b-8511-27aaa16c0830" valueTypeId="38442c72-7649-44d3-bcc6-8d0472c24515"/>
+    <managerType typeId="23b40525-70e9-46e6-b975-539415ee2a38" valueTypeId="5afc51d5-47dd-4a91-849a-2d26fc7ece87"/>
+  </producedTypes>
+  <name>Генеалогия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генеалогия</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Genealogy</value>
+  </synonym>
+  <defaultForm>Report.Генеалогия.Form.ФормаОтчета</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Генеалогическое дерево растения</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Animal family tree</value>
+  </explanation>
+  <forms uuid="532384ae-c2b1-4a14-adc5-a3e474ea78f5">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d7bcc91f-1e6a-43a2-b5d6-262bfb7b875a">
+    <name>ГенеалогическоеДерево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Генеалогическое дерево</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Family tree</value>
+    </synonym>
+    <templateType>GraphicalSchema</templateType>
+  </templates>
+  <commands uuid="2c62add4-c5fe-4ba8-b1a3-d585d1eb2c78">
+    <name>Генеалогия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Генеалогия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Genealogy</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

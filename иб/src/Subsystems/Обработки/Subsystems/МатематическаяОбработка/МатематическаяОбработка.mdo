@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="463abac6-b13e-465f-ab71-5ee7e528fa7b">
+  <name>МатематическаяОбработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Математическая обработка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.КОРРЕЛЯЦИЯ</content>
+  <content>DataProcessor.МНОГОФАКТОРНЫЙОПЫТ</content>
+  <parentSubsystem>Subsystem.Обработки</parentSubsystem>
+</mdclass:Subsystem>

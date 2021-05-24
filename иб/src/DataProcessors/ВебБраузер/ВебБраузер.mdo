@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d57a91d-37a1-48fd-a923-4c87189fe6b7">
+  <producedTypes>
+    <objectType typeId="59443205-1a13-406e-a157-72f8a0add50a" valueTypeId="919b8317-c92c-486d-8ec6-75d3fae8ea2e"/>
+    <managerType typeId="42327052-8641-4c95-99a8-9ad689cd5d40" valueTypeId="cdffb7c2-53d2-4353-b0e7-44eaca3a6640"/>
+  </producedTypes>
+  <name>ВебБраузер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Веб браузер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВебБраузер.Form.Форма</defaultForm>
+  <attributes uuid="387a088d-fe5d-4357-b7a4-94845f16a9ec">
+    <name>HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTML</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="af51f960-e177-4df4-9c94-d42debb981cf">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

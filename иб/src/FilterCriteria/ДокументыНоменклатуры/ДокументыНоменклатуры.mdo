@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0244be19-7b61-4d86-80f7-50b029ad1b53">
+  <producedTypes>
+    <listType typeId="e561bd29-0a9f-4b29-b1f2-9b4830566f7a" valueTypeId="efbba58c-d451-4f7b-9e54-de0d4a183870"/>
+    <managerType typeId="2eeb81f8-f89a-49c2-8641-6637ae28219e" valueTypeId="fc7cba4b-b2e6-41c1-86d3-d0fb211f2dab"/>
+  </producedTypes>
+  <name>ДокументыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:FilterCriterion>

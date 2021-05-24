@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="741bf638-e402-417b-a4f1-ddecf98654c1">
+  <producedTypes>
+    <selectionType typeId="7d59c165-32a8-481a-95f8-fb8c39caaec9" valueTypeId="7c2f5372-3a6d-4bb5-9e8a-b7775b583ffc"/>
+    <listType typeId="51437cba-ced6-463e-a44f-d0e360ccdea0" valueTypeId="d368d6ba-2540-4fa9-81b1-e82475f33042"/>
+    <managerType typeId="798a77a5-90ca-40d9-bdc9-4455d2d24e31" valueTypeId="f3ac0f6c-4c88-4a67-a6b2-aafe254aee66"/>
+    <recordSetType typeId="6a2f14cd-d033-45be-a007-165cd224059b" valueTypeId="5d6b8960-8bfa-4bbc-85a1-50fc44cebf08"/>
+    <recordKeyType typeId="8665231a-f6fb-4269-9bf7-3fff41c09873" valueTypeId="0ba37f98-4151-4263-840a-3c9fecbe5ad5"/>
+    <recordType typeId="c679770c-5053-4317-887a-b460ac65e255" valueTypeId="1923d09f-be6a-43ec-bacd-a7eb5ca18cf2"/>
+    <recordManagerType typeId="6e200f60-1852-4800-b8f9-cb18444ccbfe" valueTypeId="6f3a72d8-f3a8-4de2-b347-61823a2d7627"/>
+  </producedTypes>
+  <name>СерииНомеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серии регистрационных номеров</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Series of animal numbers</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ, в котором был использован номер</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Документ, в котором был использован номер</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата использования номера</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Дата использования номера</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Хранит информацию об использованных номера из серий</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Хранит информацию об использованных номера из серий</value>
+  </explanation>
+  <dimensions uuid="be374e42-df0c-4b62-8df3-365ef8eec435">
+    <name>Серия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Series</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Серия, для которой хранится номер</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Серия, для которой хранится номер</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8fff6c50-55d8-4a9c-a13a-13c23a95bafc">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Number</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧЦ=4; ЧН=0; ЧВН=; ЧГ=</value>
+    </format>
+    <format>
+      <key>en</key>
+      <value>ЧЦ=4; ЧН=0; ЧВН=; ЧГ=</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧЦ=4; ЧН=0; ЧВН=; ЧГ=</value>
+    </editFormat>
+    <editFormat>
+      <key>en</key>
+      <value>ЧЦ=4; ЧН=0; ЧВН=; ЧГ=</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер, использованный в серии</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Номер, использованный в серии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

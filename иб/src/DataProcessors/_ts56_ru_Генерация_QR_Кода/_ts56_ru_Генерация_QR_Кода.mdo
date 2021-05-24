@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3ecb71c-e751-4fe0-a1dc-568d034f9393">
+  <producedTypes>
+    <objectType typeId="a434598e-d2ec-46cb-9671-ef3113eb17a6" valueTypeId="0642befb-4aed-4f36-98f8-d802126b5490"/>
+    <managerType typeId="c17c5e67-8cd9-4527-85d9-b9533b37b28a" valueTypeId="e17df062-3d44-4a88-abfe-8debeace63cb"/>
+  </producedTypes>
+  <name>_ts56_ru_Генерация_QR_Кода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация QR-кода (ts56.ru)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor._ts56_ru_Генерация_QR_Кода.Form.Форма</defaultForm>
+  <attributes uuid="f836cafb-0c63-4180-8392-6a5912ea559b">
+    <name>_Погрешность_Уровень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Погрешность уровень</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0200c3ce-7e6e-4074-8002-66df5a6c3e85">
+    <name>_Размер_Пикселей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер пикселей</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="be689333-ecf7-41bd-b8cf-830897512957">
+    <name>_Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="48886bae-d48c-4338-af8f-8aae758c6341">
+    <name>_Файл_Имя_Полное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="0da28e46-36c5-4620-9207-4391d87f70fc">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3397b7c6-1508-4097-9fe2-5f27f178d588">
+    <name>_Компонента_QR_Код</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компонента QR код</value>
+    </synonym>
+    <comment>Компонента QR код</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad57f6bd-d8cc-4c12-9df8-f1763ccdf933">
+  <producedTypes>
+    <objectType typeId="abec3308-3682-4477-a702-93a638b2f9a1" valueTypeId="2b668390-4aba-4d15-aa0e-f3881fb5a324"/>
+    <managerType typeId="340dec9a-bc40-4132-b3c5-d1d7717f31cb" valueTypeId="8977fb25-2825-42ff-8820-f63825db4a90"/>
+  </producedTypes>
+  <name>Погода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Погода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Погода.Form.Форма</defaultForm>
+  <attributes uuid="fc8af0ee-81ef-4758-ab0d-a6f56113ea92">
+    <name>HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTML</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6feb6dea-9c66-4bae-9d26-dd2711ea31da">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

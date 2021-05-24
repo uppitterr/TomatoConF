@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fe5807f-73a3-40a2-b419-60ffda8459dd">
+  <producedTypes>
+    <objectType typeId="6dffc446-34b1-4a43-bfdd-ce25c68f337d" valueTypeId="ff7bdb6a-535a-44be-a1f2-fc3660df3655"/>
+    <managerType typeId="28ef701c-efbf-4bc3-a7ac-37d9a91f700a" valueTypeId="5d15d67a-588f-4cf4-96f1-03ba55544526"/>
+  </producedTypes>
+  <name>QRКод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка QR-код</value>
+  </synonym>
+  <comment>Автор http://infostart.ru/profile/340290/</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.QRКод.Form.Форма</defaultForm>
+  <auxiliaryForm>DataProcessor.QRКод.Form.ФормаОбычная</auxiliaryForm>
+  <attributes uuid="f5253cee-4bd8-49a9-94d1-e818db921472">
+    <name>ТекстQRКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст QRКода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e9852dc9-93d5-4a43-8f20-7078d7501066">
+    <name>КартинкаQRКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка QRКода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="db74b6b0-08c1-4767-b6ca-39eefb36d2ca">
+    <name>ТипТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип текста</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aca1ee73-8575-4771-bf10-e1f4ec391d08">
+    <name>АдресПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес почты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="45d2d573-16b0-4854-b5ae-141509c7ad6f">
+    <name>ТемаПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема письма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="58f4a61c-2dbd-4c2c-8406-31ab8f12ce0f">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e2d6d613-18c4-4d8a-bcbb-7fe8199c8b7f">
+    <name>Фамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aa2d490f-55d8-463a-aacb-52fbf612fe8b">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fb0af8ad-c7c2-4a22-a393-606a5df05c11">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="31036b15-7b1a-4610-9dbe-3ff7de4585b8">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6a46b320-c344-4437-93b8-2b984ca9d0f6">
+    <name>Город</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1cccd4f0-6931-46a5-9d5b-94e8addc5443">
+    <name>Страна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b7a38097-f5bf-46a7-bc25-5f2ab6aded5f">
+    <name>НомерТелефона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер телефона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="41768ca4-5eb5-40d2-a5b9-82a6411aceb6">
+    <name>НомерТелефонаРабочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер телефона рабочий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="58016d29-5ef0-4bff-bd11-673c65bdda7f">
+    <name>НомерТелефонаМобильный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер телефона мобильный</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cd7b42b2-b411-4bf6-966a-27f3c9b1fcf5">
+    <name>НомерФакса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер факса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7807b8b3-2f4b-45e4-afbe-dadb50c24fb6">
+    <name>АдресСайта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сайта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="97ca952e-6c5c-471e-a463-7dbaede811da">
+    <name>ДеньРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>День рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="368f6db6-74d3-4f39-9d43-a26a74863d36">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8bba1a3d-7d36-4b4e-a1d9-4156742405c9">
+    <name>ФормаОбычная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обычная</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="77708486-3d58-4843-9d2f-019c8d9da876">
+    <name>КомпонентаПечатиQRКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компонента печати QR кода</value>
+    </synonym>
+    <comment>Компонента печати QR кода</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

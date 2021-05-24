@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbc768a8-b56f-48e9-8e0d-84fc58414735">
+  <producedTypes>
+    <objectType typeId="56f5468f-11fa-4538-a89c-57a0bd8db8f3" valueTypeId="fa082766-7b5e-402d-85ae-eab3e2ee4851"/>
+    <refType typeId="d9bc3002-390e-4cdd-82f0-28ee94085915" valueTypeId="80924fd2-153c-46c7-bce6-6553c30eb8cf"/>
+    <selectionType typeId="0a5fdc6c-0462-4273-8654-9c15c24d66dd" valueTypeId="9549c522-bfd7-45eb-9f18-93f2bdb82b20"/>
+    <listType typeId="8bac9694-0b2f-4d24-86d6-c2217707e0fa" valueTypeId="1133c9c0-5274-467f-a5c4-d6125c417796"/>
+    <managerType typeId="d00c90e8-a29e-47de-acf5-bb7be5541575" valueTypeId="119e2b4e-c1e4-4872-adc7-ce7d01d410f9"/>
+  </producedTypes>
+  <name>Нейрон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нейрон</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Нейрон.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Нейрон.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="8b0bb81c-6407-414c-bac5-9bacaf28b755">
+    <producedTypes>
+      <objectType typeId="1581dd19-fa75-4628-8701-7c7c6bd23abf" valueTypeId="cd563418-3d61-4999-a130-084dfc09c5e5"/>
+      <rowType typeId="f6c79fa8-b292-45f9-ba12-6fb634b0d01b" valueTypeId="fd836f95-f754-404a-a270-deb8ac2eab7e"/>
+    </producedTypes>
+    <name>ВесаНейрона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веса нейрона</value>
+    </synonym>
+    <attributes uuid="3cd35db1-2751-4806-bf0e-fa2390409d9d">
+      <name>ВидВхода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид входа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыВводаНейрона</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a1713a96-7fcd-4504-a458-e6db39c236af">
+      <name>ЗначениеВеса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение веса</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

@@ -1,0 +1,1608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45639019-af47-4d0a-9cfc-caf563708540">
+  <producedTypes>
+    <objectType typeId="c5438b6b-2200-4db2-a8d0-14d6bf276f5d" valueTypeId="6bb195dc-89cc-4a72-b05b-c2e8f8694482"/>
+    <refType typeId="8ccd7b2c-5199-416d-a6a3-e9080f6559fe" valueTypeId="4fc8f133-8903-4da4-91d1-02c057408863"/>
+    <selectionType typeId="154fec87-a0f4-4e21-9315-c0b1eaef0b5e" valueTypeId="ebba6cee-bf2e-4071-a9b8-3063ef8e5495"/>
+    <listType typeId="8c348930-0469-4e34-8f54-d2a337a6c0da" valueTypeId="6d495ebc-c730-42ec-a3a4-bc22e97196df"/>
+    <managerType typeId="eb2bcbe0-9f2a-4f4c-81dd-92cfcc1f3b26" valueTypeId="4646b3de-1daf-406b-8af4-598244cf8d0f"/>
+  </producedTypes>
+  <name>Оценка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка </value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Breeding evaluation</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Оценка.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведен</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Проведен</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет проведен документ или нет</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Определяет проведен документ или нет</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ссылка</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на документ</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Ссылка на документ</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет помечен документ на удаление или нет</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Определяет помечен документ на удаление или нет</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата документа</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Date of the document</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Number</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Порядковый номер документа</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Serial number of the document</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>           </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Оценка</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Rating is animals</value>
+  </objectPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Оценка </value>
+  </extendedListPresentation>
+  <extendedListPresentation>
+    <key>en</key>
+    <value>Qualification of bonitation qualities of animals</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Ввод оценок животных</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Input of animals' ratings</value>
+  </explanation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Оценка.Form.ФормаДокументаУпр</defaultObjectForm>
+  <defaultListForm>Document.Оценка.Form.ФормаСпискаУпр</defaultListForm>
+  <defaultChoiceForm>Document.Оценка.Form.ФормаВыбораУпр</defaultChoiceForm>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <attributes uuid="64c0f257-85fb-47b8-bc85-ceb722d7057f">
+    <name>КодСектора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код сектора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sector code</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Указывается код сектора, в котором проводится оценка животных. Используется для удобства заполнения корпуса и сектора</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Указывается код сектора, в котором проводится оценка животных. Используется для удобства заполнения корпуса и сектора</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="db6a067a-96d1-4bd7-bd3b-ecfc5870a687">
+    <name>Сектор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сектор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sector</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сектор, в котором проводится оценка животных</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Сектор, в котором проводится оценка животных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.Оценка.Attribute.Корпус</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8b35d447-11ed-4b94-9185-541e4acf7b40">
+    <name>ТипОценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип оценки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of assessment</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип оценки животных</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Animal evaluation type:</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="49eb8c7d-c756-449b-a973-f3a88f4ca996">
+    <name>Ферма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ферма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Farm</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ферма, на которой проводится оценка животных</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Ферма, на которой проводится оценка животных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c4061426-df7d-4334-88f8-1183c147646e">
+    <name>Корпус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корпус</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Building</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Корпус, в котором проводится оценка животных</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Building where evaluation of animals is carried out</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.Оценка.Attribute.Ферма</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1e5be35c-5cf8-4f86-90dd-ac6048b511c7">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, ответственный за ввод данных</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Пользователь, ответственный за ввод данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3a5eb279-78ba-4985-9bc4-a6fe16da2c7c">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Group</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Указывается оцениваемая группа животных</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Указывается оцениваемая группа животных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0695c1da-1192-44a3-a56a-d5615363abe1">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Comment</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий к документу</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Комментарий к документу</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7d57e642-c6b4-4661-8f7c-4011f82aa28d">
+    <name>Группировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Grouping</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Указывается дополнительный разрез учета номерных животных, некоторый признак для группировки животных</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Указывается дополнительный разрез учета номерных животных, некоторый признак для группировки животных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="314f8264-381f-4d56-9efc-50fe4a7a32da">
+    <name>ТехнолГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технологическая группа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Technological group</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Технологическая группа, к которой относятся оцениваемые животные</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Технологическая группа, к которой относятся оцениваемые животные</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="22d489d7-f11d-4dc1-a464-d9aff3fec521">
+    <name>ФормаДокументаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d78683ef-096c-473a-9be5-70f9801dcc9c">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eb046321-4420-4641-a0d6-3eb434ca2927">
+    <name>ФормаВыбораУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="53a42858-4ca0-41a7-a488-1a3356e6b2f2">
+    <producedTypes>
+      <objectType typeId="cfef9116-868a-4ded-9c21-e79e6aa03a74" valueTypeId="8e2a7d9d-e13b-4471-ba0c-c1d4e5f096e1"/>
+      <rowType typeId="acac0e84-e8b0-4084-8f3c-1da6705fcef2" valueTypeId="fb414100-e565-42b3-8adf-0bbe6642dcc5"/>
+    </producedTypes>
+    <name>Свиноматки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свиноматки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sows</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Табличное поле Свиноматки</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Sows</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер строки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Line number</value>
+      </synonym>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер строки табличной части</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Номер строки табличной части</value>
+      </toolTip>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="800958f9-5ddc-4404-aa1d-40814db2ee3f">
+      <name>НомерСвиноматки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер свиноматки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Sow number</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Индивидуальный номер свиноматки</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Individual number of sow</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4bd8ac19-4561-4a51-b4ee-f5469a9ca569">
+      <name>Свиноматка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свиноматка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Sow</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Свиноматка подлежащая оценке</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Свиноматка подлежащая оценке</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Дата</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Оценка.StandardAttribute.Date</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>СсылкаВладелец</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Оценка.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Ферма</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Оценка.Attribute.Ферма</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="64afd51d-9064-4cfc-b055-2d76034274fd">
+      <name>Масса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Масса</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Weight</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <scale>1</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Масса свиноматки при проведении оценки</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Масса свиноматки при проведении оценки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c872726e-2f1c-4782-bd58-98c753cde4bb">
+      <name>ДлинаТуловища</name>
+      <synonym>
+        <key>ru</key>
+        <value>Длина</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Length</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Длина туловища при проведении оценки</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Body length in the evaluation</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0d17a17e-bfa4-4a27-aa86-3bcec2111741">
+      <name>ТолщинаШпига</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шпик (Р1)</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Back fat (vertebra)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Толщина шпика над 6-7 грудными позвонками при проведении оценки, мм</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Толщина шпика над 6-7 позвонками при проведении оценки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="29254968-b888-4843-a0de-83b977b600e2">
+      <name>Экстерьер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Экстерьер</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>External appearance</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Балл за параметр &quot;экстерьер&quot;</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>A point for  &quot;conformation&quot; characteristic</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3631e6b3-e9fa-4818-85b6-1a777f499983">
+      <name>ГлубинаМышцы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Глубина мышцы (Р2)</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Muscles depth </value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Глубина мышцы свиноматки</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Muscles depth sow</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4896ccc2-ab82-41c0-99e3-922dde2af8c9">
+      <name>ТолщинаШпига1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шпик (Р2)</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>backfat (loin)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Толщина шпика над10-11 ребром при проведении оценки, мм</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Толщина шпика над поясницей при проведении оценки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="45a3036d-06cc-43c1-a1be-0951e1ba64ed">
+      <name>ТолщинаШпига2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шпик/окорок</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Back fat (ham)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Толщина шпика над окороком при проведении оценки</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Толщина шпика над окороком при проведении оценки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="78beacf3-e064-49ef-92a6-c83b87c6acf0">
+      <name>ТолщинаШпига3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шпик/поясница</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Back fat</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Толщина шпика над поясницей при проведении оценки</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Толщина шпика над окороком при проведении оценки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="3917aaff-ab5d-4116-86f7-eb5870c52e4f">
+    <producedTypes>
+      <objectType typeId="0643dc51-0187-40f4-a9b4-636b7dd97a71" valueTypeId="310b3484-095b-46d5-aab1-c267159d2e37"/>
+      <rowType typeId="6d74a74d-20c3-40ed-a062-459f8bc9c194" valueTypeId="7a4575d6-6f9f-4aad-81f6-d31b56cbb607"/>
+    </producedTypes>
+    <name>Хряки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хряки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Boars</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Табличное поле  Хряки</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Табличное поле  Хряки</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер строки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Line number</value>
+      </synonym>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер строки табличной части</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Номер строки табличной части</value>
+      </toolTip>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="dc6e94ce-c5bf-4cca-b67f-1340ccc5ee89">
+      <name>НомерХряка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер хряка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Number boar</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Индивидуальный номер хряка</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Individual number of boar</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5519970d-fcee-41a5-86de-c3db9d9f3b61">
+      <name>Хряк</name>
+      <synonym>
+        <key>ru</key>
+        <value>Хряк</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Boar</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Хряк подлежащий оценке</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Хряк подлежащий оценке</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Дата</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Оценка.StandardAttribute.Date</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>СсылкаВладелец</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Оценка.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Ферма</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.Оценка.Attribute.Ферма</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9504ff0a-7f97-48da-837a-b8cb88635ed5">
+      <name>Масса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Масса</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Weight</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <scale>1</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Масса хряка при проведении оценки</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Weight of boar in the evaluation</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="71cbf1c2-a68c-47ac-9f7a-c55d4c732148">
+      <name>ДлинаТуловища</name>
+      <synonym>
+        <key>ru</key>
+        <value>Длина</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Length</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Длина туловища при проведении оценки</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Body length in the evaluation</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="02e8a694-6709-4fa8-8eda-d2f392df628b">
+      <name>ТолщинаШпига</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шпик (Р1)</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Back fat (vertebra)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Толщина шпика над 6-7 грудными позвонками при проведении оценки, мм</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Толщина шпика над 6-7 позвонками при проведении оценки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1fe512a6-5f7b-40a0-8f32-0dba9b0cae0c">
+      <name>Экстерьер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Экстерьер</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>External appearance</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Балл за параметр &quot;экстерьер&quot;</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>A point for  &quot;conformation&quot; characteristic</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="384fc0fc-bbdf-4ca1-87fd-5b02fcbd8d13">
+      <name>ОбщийВид</name>
+      <synonym>
+        <key>ru</key>
+        <value>ОбВ</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Communal view</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Балл за параметр &quot;общий вид&quot;</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>A point for  &quot;Communal View&quot; characteristic</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="12744984-fea4-4571-8efe-fc6a7b836724">
+      <name>ГоловаШея</name>
+      <synonym>
+        <key>ru</key>
+        <value>ГШ</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Head/Neck</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Балл за параметр &quot;голова шея&quot;</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>A point for &quot;head and neck&quot; characteristic</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1138b4c4-eb85-4453-ad8c-d4337b822889">
+      <name>ПлечиХолкаГрудь</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПХГ</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Withers/Shoulders/Chest</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Балл за параметр &quot;плечи, холка, грудь&quot;</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>A point for  &quot;shoulders, withers, chest&quot; characteristic</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a5773326-0376-47de-9433-dcb6317939e7">
+      <name>СпинаПоясницаБока</name>
+      <synonym>
+        <key>ru</key>
+        <value>СПБ</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Backrest/Loin</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Балл за параметр &quot;спина, поясница, бока&quot;</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>A point for  &quot;back, loin, side&quot; characteristic</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fa65059f-6553-4aca-8ef2-38a77cb4177a">
+      <name>КрестецОкорока</name>
+      <synonym>
+        <key>ru</key>
+        <value>КО</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Rump/Hams</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Балл за параметр &quot;крестец, окорока&quot;</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>A point for &quot;rump, gammon&quot; characteristic</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2aedf0c0-de58-462d-906b-7d33fda975f2">
+      <name>НогиПередние</name>
+      <synonym>
+        <key>ru</key>
+        <value>НП</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Front legs</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Балл за параметр &quot;ноги передние&quot;</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>A point for &quot;fore legs&quot; characteristic</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c3109677-894f-4fec-92f4-325bf95f6ae0">
+      <name>НогиЗадние</name>
+      <synonym>
+        <key>ru</key>
+        <value>НЗ</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Rear legs</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Балл за параметр &quot;ноги задние&quot;</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>A point for &quot;hind legs&quot; characteristic</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="323160ae-12e0-4625-829a-7a7f8caf9f78">
+      <name>СоскиВымя</name>
+      <synonym>
+        <key>ru</key>
+        <value>СВ</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Teats </value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Балл за параметр &quot;соски, вымя&quot;</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>A point for  &quot;dugs, udder&quot; characteristic</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="000c3377-1a48-49c4-b5a3-6e110155cb20">
+      <name>ПоловыеОрганы</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПО</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Sexual bodies</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Балл за параметр &quot;половые, органы&quot;</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>A point for  &quot;reproductive organs&quot; characteristic</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="045bf0cf-3e3f-44bd-876b-b1756f7c49df">
+      <name>ГлубинаМышцы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Глубина мышцы (Р2)</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Depth muscles</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Глубина мышцы хряка</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Muscles depth boar</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5b3c52fe-ae46-4288-8515-c5fdff8eb070">
+      <name>ТолщинаШпига1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шпик (Р2)</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Back fat (loin)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Толщина шпика над10-11 ребром при проведении оценки, мм</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Толщина шпика над поясницей при проведении оценки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="04033717-8dec-445e-8751-f9ed6e47b454">
+      <name>ТолщинаШпига2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шпик/окорок</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Back fat (ham)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Толщина шпика над окороком при проведении оценки</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Толщина шпика над окороком при проведении оценки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2edba3ca-00de-4272-81aa-f583ddb6b274">
+      <name>ТолщинаШпига3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шпик/поясница</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Back fat</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Толщина шпика над поясницей при проведении оценки</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Толщина шпика над окороком при проведении оценки</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="b6644cc5-cf48-4ea2-bb45-a6035e19e78f">
+    <name>ФормаСП43</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма СП-43</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form SP-43</value>
+    </synonym>
+  </templates>
+  <templates uuid="91299218-11a3-4036-aa5b-ff17c8756d4f">
+    <name>МакетДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет документа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Макет документа</value>
+    </synonym>
+  </templates>
+  <templates uuid="81bd0072-4cea-4789-b3c4-52aab7fb9653">
+    <name>МакетДокумента2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет документа 2</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Макет документа 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="6558cb18-10ab-4fd2-94b9-a513947f359a">
+    <name>ПечатнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатная форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Печатная форма</value>
+    </synonym>
+  </templates>
+  <commands uuid="8a068175-b65a-4c01-98db-76abcda0e926">
+    <name>СП43</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведомость взвешивания животных (СП-43)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Animal weighing statement(SP-43) </value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.Оценка</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="3dfa62a1-9246-488f-a62c-e2a07705edce">
+    <name>ДокументОценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ оценка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Document assessment</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.Оценка</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Document>

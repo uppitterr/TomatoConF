@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8971f5f4-a9d1-44d0-83a6-fd306330873e">
+  <producedTypes>
+    <refType typeId="c1a01729-b938-4fea-9adc-be2d7d9d829f" valueTypeId="fd7db628-94d2-401c-a013-d4c2f101054b"/>
+    <listType typeId="1b4eacb5-4bdd-4e27-87e7-e71684d947bb" valueTypeId="74bd2ec8-8e11-49da-8daf-0c66dc45ae9f"/>
+    <managerType typeId="9facc64c-2d2f-43c9-8e10-c6330591b059" valueTypeId="3786836b-f67c-4182-b6d0-47625697cb17"/>
+  </producedTypes>
+  <name>СеменаОпушение_NNРФ_2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Семена опушение NNРФ 2</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6cbc784f-ec97-4e08-af7a-a0b046516ac6">
+    <name>отсутствует</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 - отсутствует</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="439c46fa-7e05-43e0-9bb8-8adb2dc3940d">
+    <name>имеется</name>
+    <synonym>
+      <key>ru</key>
+      <value>9 - имеется</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

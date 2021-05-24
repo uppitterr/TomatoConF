@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba9cd31b-0707-41d9-8af1-8ba3c8916bb4">
+  <producedTypes>
+    <objectType typeId="9fbdb0ce-6ef8-406a-b56a-369ae2785839" valueTypeId="f3c88583-b964-48d4-8144-e36531b9e2ec"/>
+    <refType typeId="dfd2e1a0-21d5-43bb-b890-39b6e8c77949" valueTypeId="c7eb07b8-803c-4a84-bc43-2d061a2439e0"/>
+    <selectionType typeId="4496e0f4-4718-4842-9ff9-4fdf9fe0248c" valueTypeId="3517d074-4026-4d20-b673-714435b6b80e"/>
+    <listType typeId="75a7b25c-c617-4b03-8735-5177a9da4304" valueTypeId="de8e4c00-5599-4ed6-ab93-cf3e1257429c"/>
+    <managerType typeId="efeff9a0-1c2a-44e0-a4b7-08fce95657db" valueTypeId="191cc64c-3d64-4e1b-9451-be2de159b0cb"/>
+  </producedTypes>
+  <name>СписокГеновТомата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список генов томата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СписокГеновТомата.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СписокГеновТомата.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.СписокГеновТомата.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockFields>Catalog.СписокГеновТомата.StandardAttribute.Description</dataLockFields>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СписокГеновТомата.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СписокГеновТомата.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СписокГеновТомата.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="49734eee-6523-42d5-9d28-986097246f26">
+    <name>GeneName</name>
+    <synonym>
+      <key>ru</key>
+      <value>Gene name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>110</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a4d44c3a-a2d4-46fb-ae31-ecb5455313aa">
+    <name>Allele</name>
+    <synonym>
+      <key>ru</key>
+      <value>Allele</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>110</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a831c583-5bbe-4dce-969a-b106f35f5db7">
+    <name>AlleleName</name>
+    <synonym>
+      <key>ru</key>
+      <value>Allele name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>110</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="601ca0d8-78ac-47d6-acff-2c9ae5ca5c72">
+    <name>Synonyms</name>
+    <synonym>
+      <key>ru</key>
+      <value>Synonyms</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>110</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0598068b-db01-4332-940c-5e276112a97c">
+    <name>Phenotype</name>
+    <synonym>
+      <key>ru</key>
+      <value>Phenotype</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>110</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="80ea7018-b15d-4434-ac60-56d35f3ca4c6">
+    <name>Notes</name>
+    <synonym>
+      <key>ru</key>
+      <value>Notes</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7dfecfe9-a906-447a-9f30-f792b537a61f">
+    <name>About</name>
+    <synonym>
+      <key>ru</key>
+      <value>About</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="9f015fe8-b1f0-4f4f-96c3-d7b10b1bb7fe">
+    <producedTypes>
+      <objectType typeId="d7e9df8b-8be7-4add-a9fd-c9270d6620d9" valueTypeId="88f13cc9-9c8f-4904-9778-6d58825d7b70"/>
+      <rowType typeId="fc924e0d-5be8-4ad9-90de-0d424bb0991e" valueTypeId="7df75c8a-42a4-45f9-9ae8-b7291b3a0764"/>
+    </producedTypes>
+    <name>ТаблицаГенов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица генов</value>
+    </synonym>
+    <attributes uuid="2790e0b6-b564-4498-9d98-65f77cf43d78">
+      <name>Gene</name>
+      <synonym>
+        <key>ru</key>
+        <value>Gene</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>110</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="74c658bd-1d06-4066-bb7f-5dc48b38b187">
+      <name>GeneName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Gene name</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>110</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a3b76066-e8f0-458a-a23f-e73b4067030b">
+      <name>Allele</name>
+      <synonym>
+        <key>ru</key>
+        <value>Allele</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>110</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3d915903-3737-410a-ad77-2dfb8f0cb5fa">
+      <name>AlleleName</name>
+      <synonym>
+        <key>ru</key>
+        <value>Allele name</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>110</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="01536295-f0c5-49f7-908a-7af338568663">
+      <name>Synonyms</name>
+      <synonym>
+        <key>ru</key>
+        <value>Synonyms</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>110</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cd5be09e-dff5-4cbb-ae10-fc51470efd76">
+      <name>Phenotype</name>
+      <synonym>
+        <key>ru</key>
+        <value>Phenotype</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>110</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="54d2844a-e51f-4616-a339-cbc31ec429e7">
+      <name>Notes</name>
+      <synonym>
+        <key>ru</key>
+        <value>Notes</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="592eca88-8762-41fe-b130-e605f2d4ebd2">
+      <name>About</name>
+      <synonym>
+        <key>ru</key>
+        <value>About</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="136d3beb-562c-469b-9327-fda1ec5df192">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b8311fcf-0eda-465c-b453-e9205f73ba12">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7cddab1e-6c6b-434d-ba89-0f2eeefc3765">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="306fb494-cfa8-416b-90c9-eb37263db5fe">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="da8ffc2a-320d-41c5-9e21-b323beec5ba9">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6907f6ab-726f-46ac-9275-6a2b5c34e7d2">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="1500bd19-f3ae-49a4-a0c7-129bfa463214">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.СписокГеновТомата</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

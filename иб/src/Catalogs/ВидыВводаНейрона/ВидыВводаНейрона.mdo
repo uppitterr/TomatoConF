@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0d2991b-caed-414b-9011-fbcfa80032b5">
+  <producedTypes>
+    <objectType typeId="7b453332-b5f7-4017-bd64-711b33c932c9" valueTypeId="13f8e795-d007-41cb-ae40-45850285e64c"/>
+    <refType typeId="d4e25397-8db0-4cb5-83b5-56cf170fe43c" valueTypeId="aa9fb77b-988b-4266-92ac-68faa44a8fe3"/>
+    <selectionType typeId="18f563d3-05e5-469a-92d1-8b9a747b911d" valueTypeId="93db3142-07fe-4080-a261-e53b5fb59428"/>
+    <listType typeId="6340aad4-01d5-4911-be34-d92cb4630fea" valueTypeId="9df3f459-22d1-47f9-bf8c-9e1e06e9d719"/>
+    <managerType typeId="fb4a73fa-cf6f-41f5-abf4-1fbad7e46d9a" valueTypeId="739afd88-14d7-4614-b57d-6ba8be12e8d2"/>
+  </producedTypes>
+  <name>ВидыВводаНейрона</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды ввода нейрона</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыВводаНейрона.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыВводаНейрона.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

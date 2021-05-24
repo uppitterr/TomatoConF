@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b0f00fa-0cfa-46dc-8858-3ea9ae9d5a4c">
+  <producedTypes>
+    <objectType typeId="b5bcb2fe-cb44-4aa4-b326-ca380403ae7a" valueTypeId="1295c8c1-f7b9-4978-a2e9-b56040c84047"/>
+    <managerType typeId="7eff1bbf-e749-46f8-8318-40a096973a3b" valueTypeId="603d1b1d-7a5a-4854-beb5-b38f405fe9ac"/>
+  </producedTypes>
+  <name>ВыгрузкаЗагрузкаEnterpriseData</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка загрузка EnterpriseData</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыгрузкаЗагрузкаEnterpriseData.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="fa6dce40-0a2e-47d1-8474-1443d7b216d5">
+    <name>ПутьКМенеджеруОбменаВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к менеджеру обмена выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Путь к внешнему менеджеру обмена для выгрузки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="86493a84-f309-44d2-8738-094873555174">
+    <name>ПутьКМенеджеруОбменаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к менеджеру обмена загрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Путь к внешнему менеджеру обмена для загрузки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d65b9cb2-45ec-4954-b62d-8927ae380d17">
+    <name>РезультатВыгрузкиXDTO</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат выгрузки XDTO</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Результат выгрузки при выгрузке в текст</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="43dba268-3897-4b23-9d56-3c29147db508">
+    <name>ВерсияФормата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия формата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Версия формата для выгрузки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a74cb131-ab44-4aac-9181-44ed960d0a20">
+    <name>УзелОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел обмена</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При указании узла будут выгружены зарегистрированные на узле изменения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="40bfa3b6-5c50-44b5-913c-b206330de61e">
+    <name>ПериодОтбораВсехДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период отбора всех документов</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Указанный отбор по периоду будет применен ко всем выбранным документам.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4eb9c8ff-5a64-4e6b-a9f2-c2647aa3d9c4">
+    <name>АдресКомпоновщикаВсехДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес компоновщика всех документов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адрес компоновщика всех документов (служебный)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f3a66514-6e26-4560-8f2b-a80d0518c2de">
+    <name>КомпоновщикОтбораВсехДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компоновщик отбора всех документов</value>
+    </synonym>
+    <type>
+      <types>DataCompositionSettingsComposer</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Компоновщик отбора всех документов (служебный)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1e3b9b3b-b72c-4fe7-970a-a5b785f9e362">
+    <name>АдресХранилищаФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес хранилища формы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адрес хранилища формы (служебный)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8ab4703a-c5c0-417a-97c0-be9307910818">
+    <name>ДополнительнаяРегистрация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная регистрация</value>
+    </synonym>
+    <comment>Таблица дополнительной регистрации</comment>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Таблица объектов подлежащих дополнительной регистрации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d5426330-7215-4274-aa79-b99797e47dc4">
+    <name>СписокДополнениеКВыгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список дополнение к выгрузке</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Список объектов подлежащих выгрузке</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8648abb5-3d2e-4077-8448-daff4fc80f41">
+    <name>ТаблицаПравилВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица правил выгрузки</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Перечень доступных для выгрузки объектов метаданных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4b6b69b2-8f82-42ca-a4ab-bcc75c292fce">
+    <name>ИсточникВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Источник выгрузки (текст либо файл)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="15df2d24-8ac7-45ba-bc4d-77b13017446b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8c56ad94-2e6b-4063-a28f-220d31e0aba0">
+    <name>РедактированиеПериодаИОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование периода и отбора</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f16412bc-94a5-443e-b524-bb54ffece130">
+    <name>СхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

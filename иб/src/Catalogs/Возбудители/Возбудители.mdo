@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0061db53-a58f-4a85-b5d8-d9919495c083">
+  <producedTypes>
+    <objectType typeId="9f4e75ed-14a4-4357-8b05-83ee57001496" valueTypeId="39900cd6-6794-46b2-8487-32de26eca3ca"/>
+    <refType typeId="d2173433-4691-43f8-8edd-1899763bf3d0" valueTypeId="9cba6348-34b7-40b8-8e8d-28f363f573b6"/>
+    <selectionType typeId="d7b3e657-3d18-4a48-b8bf-88c08ba6b5bb" valueTypeId="14a88c3c-97ff-488e-ae0e-baa9f68a81f4"/>
+    <listType typeId="701025a3-4f21-44d9-9b61-7979aaf2ca01" valueTypeId="4fcd2611-f4e6-45ce-9285-9934177460a8"/>
+    <managerType typeId="904403ee-1155-4747-947c-b0dc2e3d101a" valueTypeId="34917421-4935-414a-9c5e-62fcb6969afe"/>
+  </producedTypes>
+  <name>Возбудители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возбудители</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Pathogens</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Возбудители.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Возбудители.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <synonym>
+      <key>en</key>
+      <value>Predefined</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <synonym>
+      <key>en</key>
+      <value>Link</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <synonym>
+      <key>en</key>
+      <value>Deleted</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Название возбудителя</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Pathogen name</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Код возбудителя</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Pathogen code</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Возбудитель</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Возбудитель</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Хранит информацию о возбудителях болезни</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Хранит информацию о возбудителях болезни</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b8b9b33a-befb-4ce9-8029-f7f3a3435a78">
+    <name>ГрамПоложительная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грамположительная</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Gram-positive</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Грамположительный возбудитель?</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Gram-positive pathogen?</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

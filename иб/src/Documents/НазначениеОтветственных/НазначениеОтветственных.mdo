@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce10377a-7b9b-4d10-a0ea-bc65bad0f765">
+  <producedTypes>
+    <objectType typeId="5934019c-6f90-42b4-89e6-d74acd686180" valueTypeId="75c3daee-0201-4d8e-ab9a-987a69b81ea8"/>
+    <refType typeId="669b8798-535e-49e0-8db3-4bbfd3450d4e" valueTypeId="2b712cb6-4f47-49c5-9997-242d01bed4f3"/>
+    <selectionType typeId="c67c4e75-5b97-49c3-8330-8a1e048b2aac" valueTypeId="18188b24-01e9-4929-99bf-979f3178a3ed"/>
+    <listType typeId="8b6dac5e-f30a-4497-b49a-f01a6f9530a7" valueTypeId="11458eec-5356-4f96-9776-67e721c8872b"/>
+    <managerType typeId="fb66dce5-5320-4e52-a2ae-8b7647ff1ad7" valueTypeId="ae782621-48d0-4e32-bf50-b9c7f8a6b25f"/>
+  </producedTypes>
+  <name>НазначениеОтветственных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначение ответственных</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Assigning responsibility</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.НазначениеОтветственных.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведен</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Проведен</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет проведен документ или нет</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Определяет проведен документ или нет</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ссылка</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на документ</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Ссылка на документ</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет помечен документ на удаление или нет</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Определяет помечен документ на удаление или нет</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата документа</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Date of the document</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Number</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Порядковый номер документа</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Serial number of the document</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>           </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <explanation>
+    <key>ru</key>
+    <value>Отражает определение ответсвенных по секторам</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Отражает определение ответсвенных по секторам</value>
+  </explanation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.НазначениеОтветственных.Form.ФормаДокументаУпр</defaultObjectForm>
+  <defaultListForm>Document.НазначениеОтветственных.Form.ФормаСпискаУпр</defaultListForm>
+  <defaultChoiceForm>Document.НазначениеОтветственных.Form.ФормаВыбораУпр</defaultChoiceForm>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <attributes uuid="0f0d6157-40ca-453a-be57-ed3c73948c81">
+    <name>Ферма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ферма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Farm</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ферма, за которой закреплен ответственный</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Ферма, за которой закреплен ответственный</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b49cf652-5873-4e30-b059-faf61a3b686f">
+    <name>Корпус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корпус</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Building</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Корпус, за которым закреплен ответственный</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Building under responsibility</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.НазначениеОтветственных.Attribute.Ферма</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="db8eb620-3754-42b3-b689-3deb5392e645">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, ответственный за ввод данных</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Пользователь, ответственный за ввод данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f60fb741-6ed3-40ab-bf6f-ad1272b14aa0">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Comment</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий к документу</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Комментарий к документу</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3320e316-0729-4461-a4c7-c64544d96f78">
+    <name>ФормаДокументаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="df4a25ec-9d6a-440a-9191-2b317bfbcbf5">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d435b596-b0e0-432b-a0b9-5baf839413f8">
+    <name>ФормаВыбораУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="d082d812-b410-4ee1-bfeb-3c65778d21c8">
+    <producedTypes>
+      <objectType typeId="05dd5387-7e4f-4641-b3f3-2f2ae68cb951" valueTypeId="047c9428-1524-4df6-9889-ac31a97a7cd5"/>
+      <rowType typeId="592239ba-9b6f-4447-8dd0-9ac58fc2bc09" valueTypeId="5638f000-3bf1-40b7-9f95-f69cb314fbd2"/>
+    </producedTypes>
+    <name>Ответственные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственные</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Responsible</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Табличное поле Ответственные</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Табличное поле Ответственные</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер строки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Line number</value>
+      </synonym>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер строки табличной части</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Номер строки табличной части</value>
+      </toolTip>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="29da93c3-b2b7-4cb1-ab5b-10b52a9523bc">
+      <name>Сектор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сектор</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Sector</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сектор, за которой закреплен ответственный</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Сектор, за которой закреплен ответственный</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.НазначениеОтветственных.Attribute.Корпус</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6897fad9-c576-4a2a-b192-902f0e25a0c6">
+      <name>Ответственный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответственный</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Responsible</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сотрудник организации</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>employee of the organization</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="0cb62944-8575-4bd1-bf77-60cd367e8737">
+    <producedTypes>
+      <objectType typeId="902eb4af-c8a0-4bb3-881c-e4c2c2e4d88f" valueTypeId="9b3a2f5a-e9ab-4e0a-a64a-1b586823a12f"/>
+      <rowType typeId="c4abaee0-f0dc-488e-95e2-005c546d0ccb" valueTypeId="1b3d3256-04bf-4708-ba87-779934238ec3"/>
+    </producedTypes>
+    <name>ОтветственныеПоСкладам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственные по складам</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Responsible for Warehouses</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Табличное поле Ответственные по складам</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Табличное поле Ответственные по складам</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер строки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Line number</value>
+      </synonym>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер строки табличной части</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Номер строки табличной части</value>
+      </toolTip>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="ee93ef0a-d6c3-4e33-b36f-7550652b6c9c">
+      <name>Склад</name>
+      <synonym>
+        <key>ru</key>
+        <value>Склад</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Warehouse</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Склад, за которой закреплен ответственный</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Склад, за которой закреплен ответственный</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f39b0861-99bb-46c6-afd4-3f501383a70d">
+      <name>Ответственный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответственный</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Responsible</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сотрудник организации</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>employee of the organization</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="b45aeed1-ee3c-4e65-b1e2-3bb02d23a3e5">
+    <name>ПечатнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатная форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Печатная форма</value>
+    </synonym>
+  </templates>
+  <commands uuid="05c9edaf-07a8-4261-b234-2f0be2fae6b0">
+    <name>НазначениеОтветственных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение ответственных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Document assigning responsibility</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.НазначениеОтветственных</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Document>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4dc2fba9-5cca-4179-b51e-23e4bdebc1e8">
+  <producedTypes>
+    <objectType typeId="2b8527cb-837e-4372-b501-40fd2e472245" valueTypeId="a1a3b36a-106f-4138-b7f1-3ab93aaaa44d"/>
+    <managerType typeId="5434a302-7c74-4134-b7fd-3602bc16531f" valueTypeId="5bc6b59e-e63a-4fc9-8385-11c0edaa6507"/>
+  </producedTypes>
+  <name>ПримерИспользованияФормыПрогресса2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пример использования формы прогресса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПримерИспользованияФормыПрогресса2.Form.Форма</defaultForm>
+  <forms uuid="73e08215-bf5b-4a35-a2d4-b857921aedcd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="536a13ef-3ddc-402e-93b8-7de69ef24607">
+    <name>ФормаПрогресса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма прогресса</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9003af5e-5446-418d-b273-992383b96cea">
+  <producedTypes>
+    <objectType typeId="d9c7d3ad-d7c6-435b-8041-057b6757d8e1" valueTypeId="c97e1cac-9921-4c67-9f9f-a88a3eba63bd"/>
+    <managerType typeId="98ce179b-2b0e-4a40-bdd1-f4b55dbc1db6" valueTypeId="c5a86309-932a-44b2-9458-44395a35e5ff"/>
+  </producedTypes>
+  <name>ЗагрузкаГеновТомата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка генов томата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаГеновТомата.Form.Форма</defaultForm>
+  <forms uuid="03111142-5269-4d2d-b5c5-28d87284963e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="65053d59-103d-4e4b-a88b-d383a27e92a1">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

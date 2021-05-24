@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61308276-4ad2-4c8c-b26c-841bbf200151">
+  <producedTypes>
+    <objectType typeId="039fa2ce-63e1-4275-9700-2fb8723e6d95" valueTypeId="8d8c684a-f243-41eb-9bca-ce4bf18ac4ca"/>
+    <refType typeId="eb78e7da-11b7-4ddc-87e1-e831c6328dd8" valueTypeId="f5e07043-bd8b-4d3f-bf9b-a860720b1a6c"/>
+    <selectionType typeId="b233d6df-1883-4f78-a005-f550d98c18f9" valueTypeId="5bf569ad-e88e-47a8-9c0c-d0ad5ded9be5"/>
+    <listType typeId="c07f7019-fe07-4893-80e8-7249a8d1a33f" valueTypeId="53d7dea0-415e-4582-9f30-99bab689ccbd"/>
+    <managerType typeId="9ad56a56-cf28-44ae-8808-320a0b88648b" valueTypeId="39c65db9-7668-4a91-a649-e69abd5e35d9"/>
+  </producedTypes>
+  <name>Файлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Файлы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Файлы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.БИБЛИО</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Файлы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Файлы.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="7461f9c9-45c7-4fef-abfd-7d3116bd3625">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ddd009d3-cb04-4693-8578-166de02d2133">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4ac067a4-4972-4192-9939-67bf60e94664">
+    <name>СсылкаНаВладельца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на владельца</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.БИБЛИО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a73cd754-1f5d-45ea-9d25-a00f7ed26f0f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4a290d64-71aa-4c14-873b-08ca9718df05">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

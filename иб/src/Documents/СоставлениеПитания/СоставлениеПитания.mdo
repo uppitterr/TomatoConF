@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02854fac-608e-4f99-ba36-88892e3dc2f8">
+  <producedTypes>
+    <objectType typeId="62d2714f-8d1f-433f-a45c-5818bb892b58" valueTypeId="2791a822-2c0c-4bcc-8901-c56ba91558fb"/>
+    <refType typeId="1a0f053d-bdb1-4165-8b6b-6c83c68c507f" valueTypeId="602f715c-b6f5-4130-a6fd-b6ce792288b4"/>
+    <selectionType typeId="7915e2f3-8c6a-401a-a121-b07199aa961a" valueTypeId="9cf5048d-e803-416a-b7eb-ff307c8b5d3e"/>
+    <listType typeId="df3e609b-aa75-46f1-9769-688df19478c0" valueTypeId="21cb9c6c-5767-460f-b2a6-f5e319ffa67a"/>
+    <managerType typeId="d73a663f-1b4d-4cd0-a7cf-f0d67cd1a7af" valueTypeId="d088ec56-3c8b-413f-a43c-053f2fc32b41"/>
+  </producedTypes>
+  <name>СоставлениеПитания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Составление питания</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Составление кормосмеси</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СоставлениеПитания.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Составление питания</value>
+  </listPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Составление кормосмесей</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СоставлениеПитания.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.СоставлениеПитания.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b496c750-bddb-4482-af15-4ba1baef0f58">
+    <name>Кормосмесь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кормосмесь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Кормосмесь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Удобрения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет  номенклатуру</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Определяет  номенклатуру</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Кормосмесь</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0048f394-6ebf-48c2-80b1-c7507e42f635">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, ответственный за ввод данных</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Пользователь, ответственный за ввод данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5fa7d6ea-d3ff-443e-9790-f565fff913a2">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Comment</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий к документу</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Комментарий к документу</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2edeb73a-9880-4bbf-becd-1fc5336763a8">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0ea076d3-e55f-464d-abb9-ce09c3f4c081">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="10e9d956-f815-4118-872c-532e3a9419dc">
+    <producedTypes>
+      <objectType typeId="4c2d6815-a641-4a33-b892-caf007ff34f7" valueTypeId="1917b5f5-2f5f-42eb-b130-b0977d8e313c"/>
+      <rowType typeId="db08571b-2c3a-4b28-a216-08dff0eaf34c" valueTypeId="d5a56320-c68a-4d5a-bce9-f2183767f369"/>
+    </producedTypes>
+    <name>Корма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Feeds</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Табличное поле Корма</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Табличное поле Корма</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер строки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Line number</value>
+      </synonym>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер строки табличной части</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Номер строки табличной части</value>
+      </toolTip>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="0060ff7b-df8c-4404-94ea-70179e354403">
+      <name>Корм</name>
+      <synonym>
+        <key>ru</key>
+        <value>Корм</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Feed</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Удобрения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Корм, принятый к поступлению</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Корм, принятый к поступлению</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.Кормосмесь</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="271acaf5-fb2b-4aa6-8e84-367d38b166c6">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ед. изм.</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Unit of measure</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЕдиницыИзмерения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Единица измерения корма</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Единица измерения корма</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.СоставлениеПитания.TabularSection.Корма.Attribute.Корм</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bc94f0f2-792b-4022-b7bf-df5a5641f7f5">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Коэффициент</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Number</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество принятого корма</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Количество принятого корма</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12f95c54-7cf5-4bf5-a946-e666a562c9c8">
+  <name>НормативноСправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативно справочная информация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.НазваниеТомата</content>
+  <content>Catalog.оценка</content>
+  <content>Catalog.Год</content>
+  <content>Catalog.ГОССОРТ</content>
+  <content>Catalog.СписокГеновТомата</content>
+  <content>Catalog.Нейрон</content>
+  <content>Catalog.ОднослойнаяНейроннаСеть</content>
+  <content>Catalog.ВидыВводаНейрона</content>
+  <content>Catalog.Фото</content>
+  <content>Catalog.ХранилищеФайлов</content>
+  <content>Catalog.ХранилищеДанныхСправочники</content>
+  <content>Catalog.Файлы</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ФайлыПроектов</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.СтраныМира</content>
+  <content>DataProcessor.сжсвЗаполнениеПроизводственногоКалендаря</content>
+  <content>Catalog.РЕЕСТР_Коллекция</content>
+  <content>Catalog.ОтцовскаяЛиния</content>
+  <content>Catalog.МатеринскаяЛиния</content>
+  <content>Catalog.ОздоровительныеМероприятия</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>Catalog.Заболевания</content>
+  <content>Catalog.КлассификаторЕдиницИзмерения</content>
+  <content>Catalog.Удобрения</content>
+  <content>Catalog.Литература</content>
+  <content>Catalog.ПереносчикиБолезней</content>
+  <content>Catalog.ПоражаемыеСистемы</content>
+  <content>Catalog.ПризнакиБолезней</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.СпособыПримененияПрепаратов</content>
+  <content>Catalog.новФайлы</content>
+  <content>Report.Генеалогия</content>
+  <content>Document.НазначениеОтветственных</content>
+  <content>Document.Осмотр</content>
+  <content>Document.Отборы</content>
+  <content>60fc5083-f1ee-43bf-82b1-93448e615ea7</content>
+  <content>Document.Оценка</content>
+  <content>Document.СоставлениеПитания</content>
+  <content>Document.ИзготовлениеУдобрения</content>
+  <content>Document.Опыление</content>
+  <content>InformationRegister.ИсторияМатеринскихЛиний</content>
+  <content>InformationRegister.ИсторияОтцовскихЛиний</content>
+</mdclass:Subsystem>

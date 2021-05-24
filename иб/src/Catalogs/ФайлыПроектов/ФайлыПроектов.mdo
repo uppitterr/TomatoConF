@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f45e57b0-53b9-4f1a-b411-dd30e4980a47">
+  <producedTypes>
+    <objectType typeId="81d46c26-383f-4810-bbbc-7a4c1e0d2604" valueTypeId="412b480d-c5b9-4ccf-9400-dfdae496e5a9"/>
+    <refType typeId="7c9a5c7d-a65c-4ac3-80d2-f1b3a60e4be3" valueTypeId="d363e3c9-809a-4a88-adce-835178624864"/>
+    <selectionType typeId="525bcbc4-37d5-477a-b412-d5337899979d" valueTypeId="903854d2-e87a-4271-95eb-1b5d23f3a580"/>
+    <listType typeId="47f4c2b5-d5c3-4362-885d-883bfc9e14d3" valueTypeId="aa1a83fe-d45a-4418-a8ee-b8ff3ec4eeb3"/>
+    <managerType typeId="06136e38-48a3-4f1b-96f5-e06f4f53d473" valueTypeId="a883e94b-4173-46da-a398-f2c11850ba74"/>
+  </producedTypes>
+  <name>ФайлыПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы проектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФайлыПроектов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>357cf802-45da-4084-adb7-a07496253859.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ФайлыПроектов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ФайлыПроектов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="74cef611-a7fd-435b-8e40-41d874f53491">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <comment>Дата добавления файла в базу</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата создания файла</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c6c06c08-81d3-475f-a275-87b66a471266">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <comment>Описание файла</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Краткое описание файла</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c134c035-e96e-49e9-9810-555baf928b7e">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <comment>Размер файла</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Размер файла в байтах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cb4543eb-0f25-49c1-9a6f-9acd9896c443">
+    <name>Расширение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ad0eaec1-9709-43ba-93a6-9d709235da47">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="712b70a5-918f-4f4f-9179-f0b5c4cf8eee">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

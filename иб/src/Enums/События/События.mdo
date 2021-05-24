@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec0703fa-3b08-48f4-bd7c-56cae5abca64">
+  <producedTypes>
+    <refType typeId="a697f182-1642-4a5e-88d9-382aa045f13e" valueTypeId="27e02290-216c-47d3-b5ed-7fd146100a2a"/>
+    <listType typeId="d3888281-3126-48b7-a1e1-3540c417d737" valueTypeId="c868cd10-b4c9-48c2-93d9-7516868639b7"/>
+    <managerType typeId="b8c1c27f-7e5e-4533-a11f-aa5f9d7ce646" valueTypeId="b949ca84-604c-45f1-97a2-83e1d6a6a348"/>
+  </producedTypes>
+  <name>События</name>
+  <synonym>
+    <key>ru</key>
+    <value>События</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Events</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Enum.События.Form.ФормаВыбораДляОсмотра</defaultListForm>
+  <defaultChoiceForm>Enum.События.Form.ФормаВыбораДляОсмотра</defaultChoiceForm>
+  <enumValues uuid="3d9a222c-4bbb-405e-9d0b-d299d21a2c1d">
+    <name>Опыление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опыление</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Insemination</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9718dce0-6cf8-443c-9910-24aa0132843f">
+    <name>Кастрация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кастрация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Repeat sow</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6aa2ff6-7a8e-4a64-8cf8-da7a1c0af55d">
+    <name>Осмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Осмотр</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Inspection</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c1c4706-8e35-4cac-95ea-17967312bbdb">
+    <name>Аборт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аборт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Abortion</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54784e6d-d234-4760-8cf5-1cc4299af28b">
+    <name>Опорос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опорос</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Farrowing</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e14286b7-ead2-4c19-9094-32893841c872">
+    <name>Оценка21</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка 21</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Evauation 21</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bfe43d7a-26c2-475c-9177-6db5ecfe0f7b">
+    <name>РаннийОтъем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ранний отъем</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Early weaning</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34a5d017-f6ae-4c36-a9ee-5005cd290e5a">
+    <name>Отъем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отъем</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Weaning</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd664912-00b1-483c-9d02-053626576a40">
+    <name>Поступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Arrival</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c76cd08-b7b2-41a6-b99a-34f8e9bba74a">
+    <name>Выбытие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбытие</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Removal</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ae7465b-d1d5-4ba4-9321-b15e098cd9e8">
+    <name>Перемещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Transfer of animals</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04b4104e-5000-4970-8622-40bee9706b64">
+    <name>Оценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Evauation</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cdafcb22-496f-4364-ba0b-7309a78d9e03">
+    <name>ОценкаСпермопродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка спермопродукции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sperm production evaluation</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0829efd9-0080-45d9-b146-f6a9bf66262c">
+    <name>ПереводВПроверяемые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод в проверяемые</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Transfer to under examination </value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="026306e3-f499-4eda-88f3-0bf59dd7aba7">
+    <name>ПереводВОсновные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод в основные</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Transfer to main</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29cfdd9e-9707-478b-80d6-b4f126d8cc44">
+    <name>ИзменениеНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение номера</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Change of number</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da096947-560b-449a-8626-c0b1d21a274f">
+    <name>Отбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Selection</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="591c87b7-21ff-483d-8134-9daf9e20d0bc">
+    <name>ПереводВРемонтные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод в ремонтные</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Transfer to replacement</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79c507f4-b03b-46e4-99d8-f86e36fe5337">
+    <name>Охота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Охота</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Mating season</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86381769-d886-4b3c-872c-163cb26769c8">
+    <name>Татуировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Татуировка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tattoing</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb5c028f-2a8f-4d4c-b4f6-d06ee755d5a8">
+    <name>СодержаниеРемонтных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание ремонтных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Penning replacement animals</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5d5c85a-c0f5-4457-bf71-c5d6ce7c7235">
+    <name>НачалоБонитировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало бонитировки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Starting of bonitation</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60cc08c0-2a1e-428a-800f-30fb3337e982">
+    <name>КонецБонитировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец бонитировки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ending of bonitation</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3e05b71-c5a7-48f8-b4b6-83c7ed9b8c9b">
+    <name>ЗагрузкаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Loading data</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bca543c2-f372-45e7-8ad1-e07fb2d01568">
+    <name>ПереводВБезномерные</name>
+    <synonym>
+      <key>en</key>
+      <value>Transfer to animals without number</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод в безномерные</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="7d6b856c-757e-442d-a637-00ee9f5b5cdf">
+    <name>ФормаВыбораДляОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора для осмотра</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма выбора для осмотра</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

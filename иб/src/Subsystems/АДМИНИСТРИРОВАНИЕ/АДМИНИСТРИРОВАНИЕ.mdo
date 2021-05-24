@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a19e6999-0abe-4e11-b386-28a6b46bf44c">
+  <name>АДМИНИСТРИРОВАНИЕ</name>
+  <synonym>
+    <key>ru</key>
+    <value>АДМИНИСТРИРОВАНИЕ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбщаяКартинка22</picture>
+  </picture>
+  <content>Constant.НормализаторДоллара</content>
+  <content>Constant.DwarfBreeding</content>
+  <content>Constant.НормализаторЕвро</content>
+  <content>Constant.НормализаторЕвроДолл</content>
+  <content>Constant.ВнешнееХранилищеФайлов</content>
+  <content>Constant.ТолькоВнешнееХранилище</content>
+  <content>2aa8908b-0792-420e-a982-bdb880e9bba8</content>
+</mdclass:Subsystem>

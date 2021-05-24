@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41557c41-92ad-418c-b793-cc1447ead4fb">
+  <name>ДополнительныеОтчетыИОбработкиПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные отчеты и обработки переопределяемый</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Дополнительные отчеты и обработки переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

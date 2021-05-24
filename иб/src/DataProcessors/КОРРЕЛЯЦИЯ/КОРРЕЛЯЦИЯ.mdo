@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6418ef6-314d-4a1e-bd22-9da7b3d89113">
+  <producedTypes>
+    <objectType typeId="fcc29dd9-62d1-4186-95d1-489cbeb1a1e6" valueTypeId="3438649a-5d0b-4305-a117-b86db287a544"/>
+    <managerType typeId="38aeff16-9eda-4702-8846-99a25f6dbadf" valueTypeId="c1cce5fa-49e8-4c87-a7dd-a4a56b2bdefa"/>
+  </producedTypes>
+  <name>КОРРЕЛЯЦИЯ</name>
+  <synonym>
+    <key>ru</key>
+    <value>КОРРЕЛЯЦИЯ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

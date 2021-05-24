@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02cdd160-3adc-47e0-858c-92a9a99b692e">
+  <name>ФлагУстановлен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Флаг установлен</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="057a25a0-8dda-4379-a86b-c6db73d3453b">
+  <producedTypes>
+    <refType typeId="84751202-0956-470f-b81b-d48ce64b3ade" valueTypeId="2014780d-c586-42a3-9a9c-ddfdaffd004c"/>
+    <listType typeId="d8c2a149-ca07-44ad-b24c-8847b8430da8" valueTypeId="01cb3ecc-500c-49c7-ad79-37551001627d"/>
+    <managerType typeId="a47b90ac-d08f-47de-a266-34b3384cbe74" valueTypeId="bc703663-3535-4b18-82b3-b01a47d56122"/>
+  </producedTypes>
+  <name>СеменаОкраска_NNРФ_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Семена окраска NNРФ 1</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="da2b6cd8-987e-4b0c-9a4b-2b373d223f0d">
+    <name>некоричневые</name>
+    <synonym>
+      <key>ru</key>
+      <value>1- некоричневые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1466899e-449f-4edf-9966-d8b1ddfaf0b4">
+    <name>коричневые</name>
+    <synonym>
+      <key>ru</key>
+      <value>9 - коричневые</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

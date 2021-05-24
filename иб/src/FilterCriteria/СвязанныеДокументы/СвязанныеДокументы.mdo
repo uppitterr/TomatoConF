@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7956020d-4085-454c-b00b-0f58c371aded">
+  <producedTypes>
+    <listType typeId="b73f0e7b-8ac6-411c-8cea-0a4adde5dda0" valueTypeId="6d1cce1d-b7d9-4c52-acaa-7e2ccfb4c89f"/>
+    <managerType typeId="bf59ba93-296d-46c1-b0a1-286b63bac274" valueTypeId="53d54ce5-c061-4527-83d0-fecc6afeecdc"/>
+  </producedTypes>
+  <name>СвязанныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <type>
+    <types>DocumentRef</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Catalog.Файлы.Attribute.ИмяФайла</content>
+  <defaultForm>FilterCriterion.СвязанныеДокументы.Form.ФормаСписка</defaultForm>
+  <forms uuid="49ea9213-f0ed-4090-8b47-6a19dc68373a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

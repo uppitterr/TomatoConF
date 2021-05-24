@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e59606c8-8078-4fb5-940d-248fe4a4fa07">
+  <producedTypes>
+    <refType typeId="750cfbdb-fdee-4533-833e-f10b2ef7abc8" valueTypeId="18ba965a-8ee4-4ae3-afa5-0190f62eab47"/>
+    <listType typeId="5430fc63-d16f-4e3e-acf3-84a3e4c197ef" valueTypeId="2c94e737-d1ba-4762-8e00-e600535d4884"/>
+    <managerType typeId="b84d5753-252b-426f-b04d-93b24d43a2d8" valueTypeId="951da713-65f1-4df0-aa77-43b1b9268517"/>
+  </producedTypes>
+  <name>ТипРоста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип роста</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Enum.ТипРоста.Form.ФормаВыбора</defaultListForm>
+  <defaultChoiceForm>Enum.ТипРоста.Form.ФормаВыбора</defaultChoiceForm>
+  <enumValues uuid="e10311b2-1d12-4908-9628-aa2563c653ee">
+    <name>детерминантное</name>
+    <synonym>
+      <key>ru</key>
+      <value>SP</value>
+    </synonym>
+    <comment>Детерминантное SP</comment>
+  </enumValues>
+  <enumValues uuid="84e56a08-7e4b-4ed7-abcf-2d9f906ac6d8">
+    <name>индетерминантное</name>
+    <synonym>
+      <key>ru</key>
+      <value>SP+</value>
+    </synonym>
+    <comment>Индетерминантное SP+</comment>
+  </enumValues>
+  <enumValues uuid="1303b970-c8fc-4374-8db2-14b5c7259ce7">
+    <name>полудетерминантное</name>
+    <synonym>
+      <key>ru</key>
+      <value>SP+/-</value>
+    </synonym>
+    <comment>Полудетерминантное SP+/-</comment>
+  </enumValues>
+  <enumValues uuid="c204a24c-e3f1-4576-9e3f-b47af0f0cf78">
+    <name>неизвестно</name>
+    <synonym>
+      <key>ru</key>
+      <value>?</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="575bf562-4165-4474-a7ba-190b057b572e">
+    <name>ампельное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ампельное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac8e8f94-99b9-41be-8508-6573032ba3e1">
+    <name>штамбовое</name>
+    <synonym>
+      <key>ru</key>
+      <value>SPP</value>
+    </synonym>
+    <comment>Штамбовое SPP</comment>
+  </enumValues>
+  <forms uuid="85aefb57-70d2-438a-99e0-6e6f688abfa3">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

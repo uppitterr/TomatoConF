@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adc8f41f-a8a9-4fc1-9f09-545f1fb9eaf2">
+  <producedTypes>
+    <objectType typeId="179c172f-97c8-4827-8cf9-7a9e88458233" valueTypeId="e67382ac-fd07-4076-889c-f0e60f109014"/>
+    <refType typeId="7f9bf7f7-e498-4ad0-b4c5-4b2f5e80167c" valueTypeId="c537ce13-f67e-465e-ae1c-fc95ddf45a30"/>
+    <selectionType typeId="f7517984-253c-412e-b45b-28e3dfa8efa0" valueTypeId="a111c1cb-c192-47b3-a4b6-c90a6ecda081"/>
+    <listType typeId="b26583de-9524-4549-9a20-a6158e1022bc" valueTypeId="4d7f4c1b-3777-4c76-8ca2-23ab4b44bad3"/>
+    <managerType typeId="3be24f90-2d46-4160-aa30-7d0c5dec27e9" valueTypeId="bc6b971c-0da0-43c7-8ab5-736221fbce56"/>
+  </producedTypes>
+  <name>СтраныМира</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страны мира</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Country</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтраныМира.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтраныМира.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <comment>Наименование</comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Краткое наименование страны мира</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Short name of the country</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code</value>
+    </synonym>
+    <comment>Код</comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Числовой код страны по ОКСМ</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Code of contry</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value>--</value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Страна мира</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Country</value>
+  </objectPresentation>
+  <levelCount>1</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>60</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4e127564-d74f-4dd9-bced-0327f0f4e061">
+      <name>Россия</name>
+      <description>РОССИЯ</description>
+      <code xsi:type="core:StringValue">
+        <value>643</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтраныМира.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СтраныМира.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СтраныМира.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="2b53efed-c315-4360-bd82-4da54401367c">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Full name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полное наименование страны мира</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Полное наименование страны мира</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="122b2a3d-4e62-4648-aff4-295c8b294617">
+    <name>КодАльфа2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код альфа-2</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code a-1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Двузначный буквенный код альфа-2 страны по ОКСМ</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Двузначный буквенный код альфа-2 страны по ОКСМ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d96d31e4-0a0a-4d60-8a31-fa95993d1c04">
+    <name>КодАльфа3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код альфа-3</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code a-3</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Трехзначный буквенный код альфа-3 страны по ОКСМ</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Трехзначный буквенный код альфа-3 страны по ОКСМ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b7702be9-b0b5-47f0-86b6-ef0f02880597">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of elemet</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8a0dc448-6504-462b-aa61-9bf47791b8e1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b4e16e55-7dcd-41cf-87b9-19084486cde7">
+    <name>Классификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Classifier</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b0ad3e7f-e90b-4e57-8475-a4b68b6ba93b">
+    <name>Классификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Classifier</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Catalog>

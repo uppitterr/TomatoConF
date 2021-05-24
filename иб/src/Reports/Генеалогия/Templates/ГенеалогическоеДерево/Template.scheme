@@ -1,0 +1,2365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GraphicalSchema xmlns="http://v8.1c.ru/8.3/xcf/scheme" xmlns:sch="http://v8.1c.ru/8.2/data/graphscheme" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<BackColor>style:FieldBackColor</BackColor>
+	<GridEnabled>false</GridEnabled>
+	<DrawGridMode>Lines</DrawGridMode>
+	<GridHorizontalStep>5</GridHorizontalStep>
+	<GridVerticalStep>5</GridVerticalStep>
+	<PrintParameters>
+		<Paper xsi:type="xs:decimal">9</Paper>
+		<PageOrientation>Landscape</PageOrientation>
+		<Collate xsi:type="xs:decimal">0</Collate>
+		<Copies>1</Copies>
+		<TopMargin>10</TopMargin>
+		<LeftMargin>10</LeftMargin>
+		<BottomMargin>10</BottomMargin>
+		<RightMargin>10</RightMargin>
+		<BlackAndWhite>false</BlackAndWhite>
+		<PaperSource xsi:type="xs:decimal">7</PaperSource>
+		<FitPageMode>Auto</FitPageMode>
+	</PrintParameters>
+	<Items>
+		<Decoration id="11">
+			<Properties>
+				<Name>Растение</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Растение</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Animal</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>1</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>0</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="19" left="258" bottom="59" right="358"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="12">
+			<Properties>
+				<Name>ММ</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ММ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>ММ</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>2</TabOrder>
+				<BackColor>web:MistyRose</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>1</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="134" left="98" bottom="174" right="198"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="13">
+			<Properties>
+				<Name>ОМ</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ОМ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FМ</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>3</TabOrder>
+				<BackColor>web:MistyRose</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>2</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="134" left="203" bottom="174" right="303"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="15">
+			<Properties>
+				<Name>МО</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>МО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>MF</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>4</TabOrder>
+				<BackColor>web:PaleTurquoise</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>3</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="134" left="313" bottom="174" right="413"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="16">
+			<Properties>
+				<Name>ОО</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ОО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FF</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>5</TabOrder>
+				<BackColor>web:PaleTurquoise</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>4</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="134" left="418" bottom="174" right="518"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="21">
+			<Properties>
+				<Name>М</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>М</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>М</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>6</TabOrder>
+				<BackColor>web:MistyRose</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>5</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="74" left="203" bottom="114" right="303"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="22">
+			<Properties>
+				<Name>О</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>О</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>F</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>7</TabOrder>
+				<BackColor>web:PaleTurquoise</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>6</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="74" left="313" bottom="114" right="413"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<ConnectionLine id="23">
+			<Properties>
+				<Name>ЛМ</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>8</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>7</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="308" y="59"/>
+					<Point x="253" y="59"/>
+					<Point x="253" y="74"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item>Растение</Item>
+						<PortIndex>4</PortIndex>
+					</From>
+					<To>
+						<Item>М</Item>
+						<PortIndex>2</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="24">
+			<Properties>
+				<Name>ЛО</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>9</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>8</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="308" y="59"/>
+					<Point x="363" y="59"/>
+					<Point x="363" y="74"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item>Растение</Item>
+						<PortIndex>4</PortIndex>
+					</From>
+					<To>
+						<Item>О</Item>
+						<PortIndex>2</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="25">
+			<Properties>
+				<Name>ЛММ</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>10</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>9</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="233" y="114"/>
+					<Point x="233" y="124"/>
+					<Point x="148" y="124"/>
+					<Point x="148" y="134"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>4</PortIndex>
+					</From>
+					<To>
+						<Item>ММ</Item>
+						<PortIndex>2</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="30">
+			<Properties>
+				<Name>ЛОМ</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>11</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>10</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="253" y="114"/>
+					<Point x="253" y="124"/>
+					<Point x="253" y="124"/>
+					<Point x="253" y="134"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item>М</Item>
+						<PortIndex>4</PortIndex>
+					</From>
+					<To>
+						<Item>ОМ</Item>
+						<PortIndex>2</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="31">
+			<Properties>
+				<Name>ДекоративнаяЛиния1</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>12</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>11</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="363" y="114"/>
+					<Point x="363" y="124"/>
+					<Point x="363" y="124"/>
+					<Point x="363" y="134"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item>О</Item>
+						<PortIndex>4</PortIndex>
+					</From>
+					<To>
+						<Item>МО</Item>
+						<PortIndex>2</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="32">
+			<Properties>
+				<Name>ДекоративнаяЛиния2</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>13</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>12</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="383" y="114"/>
+					<Point x="383" y="124"/>
+					<Point x="468" y="124"/>
+					<Point x="468" y="134"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>5</PortIndex>
+					</From>
+					<To>
+						<Item>ОО</Item>
+						<PortIndex>2</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<Decoration id="33">
+			<Properties>
+				<Name>МММ</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>МММ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>МММ</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>14</TabOrder>
+				<BackColor>web:MistyRose</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>13</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="194" left="78" bottom="234" right="178"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="34">
+			<Properties>
+				<Name>ОММ</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ОММ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FММ</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>15</TabOrder>
+				<BackColor>web:MistyRose</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>14</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="239" left="78" bottom="279" right="178"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="35">
+			<Properties>
+				<Name>МОМ</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>МОМ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>МFМ</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>16</TabOrder>
+				<BackColor>web:MistyRose</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>15</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="194" left="183" bottom="234" right="283"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="36">
+			<Properties>
+				<Name>ООМ</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ООМ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FFМ</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>17</TabOrder>
+				<BackColor>web:MistyRose</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>16</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="239" left="183" bottom="279" right="283"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="37">
+			<Properties>
+				<Name>ММО</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ММО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>ММF</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>18</TabOrder>
+				<BackColor>web:PaleTurquoise</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>17</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="194" left="333" bottom="234" right="433"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="38">
+			<Properties>
+				<Name>ОМО</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ОМО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FМF</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>19</TabOrder>
+				<BackColor>web:PaleTurquoise</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>18</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="239" left="333" bottom="279" right="433"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="39">
+			<Properties>
+				<Name>МОО</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>МОО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>МFF</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>20</TabOrder>
+				<BackColor>web:PaleTurquoise</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>19</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="194" left="438" bottom="234" right="538"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="40">
+			<Properties>
+				<Name>ООО</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ООО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FFF</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>21</TabOrder>
+				<BackColor>web:PaleTurquoise</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>20</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="239" left="438" bottom="279" right="538"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<ConnectionLine id="41">
+			<Properties>
+				<Name>ЛМММ</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>22</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>21</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="98" y="154"/>
+					<Point x="58" y="154"/>
+					<Point x="58" y="214"/>
+					<Point x="78" y="214"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item>ММ</Item>
+						<PortIndex>1</PortIndex>
+					</From>
+					<To>
+						<Item>МММ</Item>
+						<PortIndex>1</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="42">
+			<Properties>
+				<Name>ЛОММ</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>23</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>22</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="58" y="204"/>
+					<Point x="58" y="259"/>
+					<Point x="78" y="259"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>0</PortIndex>
+					</From>
+					<To>
+						<Item>ОММ</Item>
+						<PortIndex>1</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="43">
+			<Properties>
+				<Name>ЛМОМ</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>24</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>23</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="294" y="174"/>
+					<Point x="294" y="214"/>
+					<Point x="283" y="214"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>0</PortIndex>
+					</From>
+					<To>
+						<Item>МОМ</Item>
+						<PortIndex>3</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="44">
+			<Properties>
+				<Name>ЛООМ</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>25</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>24</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="294" y="194"/>
+					<Point x="294" y="259"/>
+					<Point x="283" y="259"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>0</PortIndex>
+					</From>
+					<To>
+						<Item>ООМ</Item>
+						<PortIndex>3</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="45">
+			<Properties>
+				<Name>ЛММО</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>26</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>25</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="323" y="174"/>
+					<Point x="323" y="214"/>
+					<Point x="333" y="214"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>0</PortIndex>
+					</From>
+					<To>
+						<Item>ММО</Item>
+						<PortIndex>1</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="46">
+			<Properties>
+				<Name>ЛОМО</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>27</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>26</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="323" y="199"/>
+					<Point x="323" y="259"/>
+					<Point x="333" y="259"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>0</PortIndex>
+					</From>
+					<To>
+						<Item>ОМО</Item>
+						<PortIndex>1</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="47">
+			<Properties>
+				<Name>ЛМОО</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>28</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>27</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="518" y="154"/>
+					<Point x="558" y="154"/>
+					<Point x="558" y="214"/>
+					<Point x="538" y="214"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item>ОО</Item>
+						<PortIndex>3</PortIndex>
+					</From>
+					<To>
+						<Item>МОО</Item>
+						<PortIndex>3</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="48">
+			<Properties>
+				<Name>ЛООО</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>29</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>28</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="559" y="204"/>
+					<Point x="559" y="259"/>
+					<Point x="538" y="259"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>0</PortIndex>
+					</From>
+					<To>
+						<Item>ООО</Item>
+						<PortIndex>3</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<Decoration id="49">
+			<Properties>
+				<Name>ММММ</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ММММ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>ММММ</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>30</TabOrder>
+				<BackColor>web:MistyRose</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>29</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="299" left="33" bottom="339" right="133"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="50">
+			<Properties>
+				<Name>ОМММ</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ОМММ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FМММ</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>31</TabOrder>
+				<BackColor>web:MistyRose</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>30</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="344" left="33" bottom="384" right="133"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="51">
+			<Properties>
+				<Name>МОММ</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>МОММ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>МFММ</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>32</TabOrder>
+				<BackColor>web:MistyRose</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>31</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="394" left="33" bottom="434" right="133"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="52">
+			<Properties>
+				<Name>ООММ</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ООММ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FFММ</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>33</TabOrder>
+				<BackColor>web:MistyRose</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>32</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="439" left="33" bottom="479" right="133"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="53">
+			<Properties>
+				<Name>МООМ</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>МООМ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>МFFМ</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>34</TabOrder>
+				<BackColor>web:MistyRose</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>33</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="394" left="148" bottom="434" right="248"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="54">
+			<Properties>
+				<Name>ОООМ</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ОООМ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FFFM</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>35</TabOrder>
+				<BackColor>web:MistyRose</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>34</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="439" left="148" bottom="479" right="248"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="55">
+			<Properties>
+				<Name>ММОМ</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ММОМ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>ММFМ</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>36</TabOrder>
+				<BackColor>web:MistyRose</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>35</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="299" left="193" bottom="339" right="293"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="56">
+			<Properties>
+				<Name>ОМОМ</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ОМОМ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FМFМ</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>37</TabOrder>
+				<BackColor>web:MistyRose</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>36</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="344" left="193" bottom="384" right="293"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="57">
+			<Properties>
+				<Name>МММО</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>МММО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>МММF</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>38</TabOrder>
+				<BackColor>web:PaleTurquoise</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>37</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="299" left="323" bottom="339" right="423"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="58">
+			<Properties>
+				<Name>ОММО</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ОММО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FММF</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>39</TabOrder>
+				<BackColor>web:PaleTurquoise</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>38</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="344" left="323" bottom="384" right="423"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="59">
+			<Properties>
+				<Name>МОМО</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>МОМО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>МFМF</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>40</TabOrder>
+				<BackColor>web:PaleTurquoise</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>39</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="394" left="368" bottom="434" right="468"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="60">
+			<Properties>
+				<Name>ООМО</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ООМО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FFМF</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>41</TabOrder>
+				<BackColor>web:PaleTurquoise</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>40</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="439" left="368" bottom="479" right="468"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="61">
+			<Properties>
+				<Name>МООО</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>МООО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>MFFF</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>42</TabOrder>
+				<BackColor>web:PaleTurquoise</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>41</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="394" left="483" bottom="434" right="583"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="62">
+			<Properties>
+				<Name>ОООО</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ОООО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FFFF</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>43</TabOrder>
+				<BackColor>web:PaleTurquoise</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>42</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="439" left="483" bottom="479" right="583"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="63">
+			<Properties>
+				<Name>ММОО</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ММОО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>ММFF</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>44</TabOrder>
+				<BackColor>web:PaleTurquoise</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>43</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="299" left="483" bottom="339" right="583"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<Decoration id="64">
+			<Properties>
+				<Name>ОМОО</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ОМОО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FМFF</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>45</TabOrder>
+				<BackColor>web:PaleTurquoise</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>44</ZOrder>
+				<Hyperlink>true</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="344" left="483" bottom="384" right="583"/>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<Shape>Block</Shape>
+				<FlipMode>0</FlipMode>
+				<Angle xsi:type="xs:decimal">0</Angle>
+			</Properties>
+		</Decoration>
+		<ConnectionLine id="65">
+			<Properties>
+				<Name>ДекоративнаяЛиния3</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>46</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>45</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="283" y="229"/>
+					<Point x="303" y="229"/>
+					<Point x="303" y="319"/>
+					<Point x="293" y="319"/>
+				</PivotPoints>
+				<ManualyMovedSegments>
+					<Segment index="1">
+						<Start x="303" y="229"/>
+						<End x="303" y="319"/>
+					</Segment>
+				</ManualyMovedSegments>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>3</PortIndex>
+					</From>
+					<To>
+						<Item>ММОМ</Item>
+						<PortIndex>3</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="66">
+			<Properties>
+				<Name>ДекоративнаяЛиния4</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>47</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>46</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="304" y="304"/>
+					<Point x="304" y="364"/>
+					<Point x="293" y="364"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>0</PortIndex>
+					</From>
+					<To>
+						<Item>ОМОМ</Item>
+						<PortIndex>3</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="69">
+			<Properties>
+				<Name>ДекоративнаяЛиния5</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>48</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>47</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="333" y="229"/>
+					<Point x="313" y="229"/>
+					<Point x="313" y="319"/>
+					<Point x="323" y="319"/>
+				</PivotPoints>
+				<ManualyMovedSegments>
+					<Segment index="1">
+						<Start x="313" y="229"/>
+						<End x="313" y="319"/>
+					</Segment>
+				</ManualyMovedSegments>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>1</PortIndex>
+					</From>
+					<To>
+						<Item>МММО</Item>
+						<PortIndex>1</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="70">
+			<Properties>
+				<Name>ДекоративнаяЛиния6</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>49</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>48</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="313" y="294"/>
+					<Point x="313" y="364"/>
+					<Point x="323" y="364"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>0</PortIndex>
+					</From>
+					<To>
+						<Item>ОММО</Item>
+						<PortIndex>1</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="76">
+			<Properties>
+				<Name>ДекоративнаяЛиния7</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>50</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>49</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="233" y="279"/>
+					<Point x="233" y="289"/>
+					<Point x="308" y="289"/>
+					<Point x="308" y="414"/>
+					<Point x="248" y="414"/>
+				</PivotPoints>
+				<ManualyMovedSegments>
+					<Segment index="1">
+						<Start x="233" y="289"/>
+						<End x="308" y="289"/>
+					</Segment>
+					<Segment index="2">
+						<Start x="308" y="289"/>
+						<End x="308" y="414"/>
+					</Segment>
+				</ManualyMovedSegments>
+				<Connect>
+					<From>
+						<Item>ООМ</Item>
+						<PortIndex>4</PortIndex>
+					</From>
+					<To>
+						<Item>МООМ</Item>
+						<PortIndex>3</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="77">
+			<Properties>
+				<Name>ДекоративнаяЛиния8</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>51</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>50</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="309" y="404"/>
+					<Point x="309" y="459"/>
+					<Point x="248" y="459"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>0</PortIndex>
+					</From>
+					<To>
+						<Item>ОООМ</Item>
+						<PortIndex>3</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="78">
+			<Properties>
+				<Name>ДекоративнаяЛиния9</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>52</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>51</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="383" y="279"/>
+					<Point x="383" y="289"/>
+					<Point x="308" y="289"/>
+					<Point x="308" y="414"/>
+					<Point x="368" y="414"/>
+				</PivotPoints>
+				<ManualyMovedSegments>
+					<Segment index="1">
+						<Start x="383" y="289"/>
+						<End x="308" y="289"/>
+					</Segment>
+					<Segment index="2">
+						<Start x="308" y="289"/>
+						<End x="308" y="414"/>
+					</Segment>
+				</ManualyMovedSegments>
+				<Connect>
+					<From>
+						<Item>ОМО</Item>
+						<PortIndex>4</PortIndex>
+					</From>
+					<To>
+						<Item>МОМО</Item>
+						<PortIndex>1</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="79">
+			<Properties>
+				<Name>ДекоративнаяЛиния10</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>53</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>52</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="308" y="399"/>
+					<Point x="308" y="459"/>
+					<Point x="368" y="459"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>0</PortIndex>
+					</From>
+					<To>
+						<Item>ООМО</Item>
+						<PortIndex>1</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="80">
+			<Properties>
+				<Name>ДекоративнаяЛиния11</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>54</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>53</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="144" y="279"/>
+					<Point x="144" y="414"/>
+					<Point x="133" y="414"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>4</PortIndex>
+					</From>
+					<To>
+						<Item>МОММ</Item>
+						<PortIndex>3</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="81">
+			<Properties>
+				<Name>ДекоративнаяЛиния12</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>55</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>54</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="144" y="384"/>
+					<Point x="144" y="459"/>
+					<Point x="133" y="459"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>0</PortIndex>
+					</From>
+					<To>
+						<Item>ООММ</Item>
+						<PortIndex>3</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="82">
+			<Properties>
+				<Name>ДекоративнаяЛиния13</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>56</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>55</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="473" y="279"/>
+					<Point x="473" y="414"/>
+					<Point x="483" y="414"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>4</PortIndex>
+					</From>
+					<To>
+						<Item>МООО</Item>
+						<PortIndex>1</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="83">
+			<Properties>
+				<Name>ДекоративнаяЛиния14</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>57</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>56</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="473" y="399"/>
+					<Point x="473" y="459"/>
+					<Point x="483" y="459"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>0</PortIndex>
+					</From>
+					<To>
+						<Item>ОООО</Item>
+						<PortIndex>1</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="84">
+			<Properties>
+				<Name>ДекоративнаяЛиния15</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>58</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>57</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="78" y="224"/>
+					<Point x="23" y="224"/>
+					<Point x="23" y="319"/>
+					<Point x="33" y="319"/>
+				</PivotPoints>
+				<ManualyMovedSegments>
+					<Segment index="1">
+						<Start x="23" y="224"/>
+						<End x="23" y="319"/>
+					</Segment>
+				</ManualyMovedSegments>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>1</PortIndex>
+					</From>
+					<To>
+						<Item>ММММ</Item>
+						<PortIndex>1</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="85">
+			<Properties>
+				<Name>ДекоративнаяЛиния16</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>59</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>58</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="23" y="304"/>
+					<Point x="23" y="364"/>
+					<Point x="33" y="364"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>0</PortIndex>
+					</From>
+					<To>
+						<Item>ОМММ</Item>
+						<PortIndex>1</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="86">
+			<Properties>
+				<Name>ДекоративнаяЛиния17</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>60</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>59</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="539" y="224"/>
+					<Point x="594" y="224"/>
+					<Point x="594" y="319"/>
+					<Point x="583" y="319"/>
+				</PivotPoints>
+				<ManualyMovedSegments>
+					<Segment index="1">
+						<Start x="594" y="224"/>
+						<End x="594" y="319"/>
+					</Segment>
+				</ManualyMovedSegments>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>3</PortIndex>
+					</From>
+					<To>
+						<Item>ММОО</Item>
+						<PortIndex>3</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<ConnectionLine id="89">
+			<Properties>
+				<Name>ДекоративнаяЛиния18</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>61</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>60</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="594" y="289"/>
+					<Point x="594" y="364"/>
+					<Point x="583" y="364"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item/>
+						<PortIndex>0</PortIndex>
+					</From>
+					<To>
+						<Item>ОМОО</Item>
+						<PortIndex>3</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>true</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+	</Items>
+</GraphicalSchema>
